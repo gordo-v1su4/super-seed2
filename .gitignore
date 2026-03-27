@@ -1,0 +1,46 @@
+# Environment and API keys — use .env (never commit). Template: .env.example
+.env
+.env.*
+!.env.example
+
+# Expanded / local MCP JSON (may contain real keys after envsubst)
+mcp-config.*.local.json
+mcp-config.generated.json
+mcp-config.expanded.json
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs and caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.tmp/
+tmp/
+temp/
+
+# Dependencies and build output (common if you add JS/Python tooling)
+node_modules/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+.coverage
+*.egg-info/
