@@ -44,3 +44,6 @@ __pycache__/
 coverage/
 .coverage
 *.egg-info/
+
+# Local resized reference exports (large binaries)
+refs-resized/

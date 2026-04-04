@@ -38,6 +38,21 @@ To regenerate Cursor's mcp.json (run from this folder): `./generate-mcp-config.s
 | **Videos** | 3 | `video_files` | URLs, total duration ≤ 15 seconds |
 | **Audio** | 3 | `audio_files` | URLs only |
 
+### Reference image size (practical)
+
+The public schema does **not** publish a max width/height for `image_files`. For reliable CDN fetch and to stay near the model’s **~2K** output class, use:
+
+- **Longest edge ≤ 2048 px** (resize down if your plates are 4K+).
+- **File size** comfortably under **5 MB** per PNG (audio refs are capped at **15 MB**; images are stricter in practice).
+
+**This repo:** run from the project root (requires [uv](https://github.com/astral-sh/uv)):
+
+```bash
+uv run --with pillow scripts/resize_ref_images.py "<path-to-folder-of-pngs>" "./refs-resized"
+```
+
+Outputs copies or downscaled PNGs into `refs-resized/` (gitignored). On **Windows**, the script uses extended paths (`\\?\`) so long Cursor `assets/` filenames still open correctly.
+
 ---
 
 ## Reference Syntax (in `prompt`)
@@ -77,6 +92,23 @@ Text- or image-driven video with optional first/last frame control.
   - **0 images** → text-to-video
   - **1 image** → image-to-video (first frame)
   - **2 images** → first + last frame interpolation
+
+### First-frame vs omni (same labels as the xskill / Dreamina UI examples)
+
+These are **different pipelines**. Pick one; do not expect `filePaths` and `image_files` to mean the same thing.
+
+| Example (UI) | `functionMode` | What you pass | What it does |
+|--------------|----------------|---------------|----------------|
+| **文生视频** | `first_last_frames` | No `filePaths` (or omit it) | Text-only video; `ratio` + `duration` only. |
+| **图生视频 (首帧)** | `first_last_frames` | `filePaths`: **one** image URL | That image is the **literal first frame**; the model animates **from** it. Prompt describes motion. No `@image_file_1` binding—there is only one frame image. |
+| **全能 · 图+视频 (动作迁移)** | `omni_reference` | `image_files` + `video_files` | Prompt uses **`@image_file_1`**, **`@video_file_1`**, etc. Identity/style from images; motion and camera from the ref clip (per prompt). Matches: *「@image_file_1 中的人物按照 @video_file_1 的动作…」*. |
+| **旧版 `media_files`** | (legacy) | Single `media_files` array | Deprecated; prefer separate `image_files` / `video_files` / `audio_files`. |
+
+**Your diner + heroine case**
+
+- **Two still refs (character + location), no ref video:** use **`omni_reference`** with `image_files: [heroineUrl, dinerUrl]` and `@image_file_1` / `@image_file_2` in the prompt. This is **not** the “首帧” example (that mode only accepts **up to 2** images total as **start/end frames**, not as separate indexed refs).
+- **Lock the empty diner as the opening composition only:** use **`first_last_frames`** with `filePaths: [dinerUrl]` and describe the heroine fully in text (or accept weaker likeness). Optionally add a **second** URL in `filePaths` for an end frame.
+- **Match your edited CapCut clip’s pacing:** use **`omni_reference`** like the official **图+视频** example: `image_files` for the character (and optionally diner as a second still), `video_files: [yourMp4Url]`, prompt: e.g. *@image_file_1 中的人物在 @image_file_2 的场景中，按照 @video_file_1 的运镜与节奏表演* (adjust indices to match your array order).
 
 ---
 
@@ -230,3 +262,37 @@ It analyzes the full audio you provide and choreographs visuals to match. Trim t
 - **Generation time:** ~60 seconds
 - **Audio-visual sync:** Phoneme-level lip sync (8+ languages)
 - **Input media:** text, image, video, audio
+
+---
+
+## Dreamina / `status=fail` (task failed with no useful sub-code)
+
+Jobs are executed on ByteDance’s pipeline (often surfaced as **Dreamina**). When the dashboard shows **`Dreamina task failed (status=fail)`** and the xskill API only returns **`failed`**, the rejection is almost always **upstream safety / moderation**, not a JSON or URL formatting bug.
+
+### What the symptom pattern usually means
+
+| Pattern | Likely cause |
+|--------|----------------|
+| **Text-only** `omni_reference` (no `image_files`) **succeeds** | Prompt is within policy; problem is not “action words” alone. |
+| **Same idea + `image_files`** **fails** | One or more **reference images** (or their combination) tripped **image-side** moderation: obvious examples include **blood**, **weapons**, **graphic injury**, multi-panel **fight grids**, or **collage / typography** that reads as messy or policy-triggering. |
+| **`video_files` present**, higher price, slow or fail | Video reference is a **separate** moderation and compute path; failures and latency are common. |
+
+There is **no documented public list** of disallowed concepts. Softer English wording alone often **does not fix** a fail if the **refs** are still hot.
+
+### Reference hygiene (highest leverage)
+
+1. **Character plate:** Use a **clean** turnaround: **no blood**, **no visible blade**, neutral pose. Describe costume and attitude in text instead of uploading a “aftermath” sheet.
+2. **Environment plate:** A **single** clear diner still (no people, or people trivial in background) is safest for **location lock**.
+3. **Storyboard grid:** Treat as **optional**. It is a **mosaic of violent stills** and often triggers fails even when the text says “PG-13”. Prefer **omitting `@image_file_3`** or replacing with **one** calm mood reference.
+4. **Order:** Keep `image_files` order aligned with `@image_file_1`, `@image_file_2`, … so you are not accidentally binding the wrong asset.
+
+### Fallback strategies (in order)
+
+1. **`first_last_frames`** with **`filePaths`: [diner URL]** only — **one** clean location image; put **full character + action + camera** in `prompt`. Trades some identity lock for **pass rate**.
+2. **Two images only:** clean character + clean diner — **no** fight grid.
+3. **Text-only** again — accept **weaker** character/location match; iterate prompt.
+4. **Contact xskill support** — ask whether they can surface **Dreamina’s internal reason code** for failed tasks (often they can see more than the UI shows).
+
+### Docs vs reality
+
+This repo documents **parameters and limits** from the product schema. **Moderation** is **not** part of that schema; trial and **cleaner references** are the practical way to reduce `status=fail`.

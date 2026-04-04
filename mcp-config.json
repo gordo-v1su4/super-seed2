@@ -2,10 +2,6 @@
   "mcpServers": {
     "速推AI": {
       "url": "https://api.xskill.ai/api/v3/mcp-http?api_key=${XSKILL_API_KEY}"
-    },
-    "n8n-mcp": {
-      "url": "https://api.n8n-mcp.com/mcp",
-      "headers": {}
     }
   }
 }
