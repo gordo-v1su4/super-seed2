@@ -47,3 +47,6 @@ coverage/
 
 # Local resized reference exports (large binaries)
 refs-resized/
+
+#media files
+*.mp4
