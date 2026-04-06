@@ -3,6 +3,8 @@
 Model ID: `st-ai/super-seed2`  
 Source: 速推AI / xskill.ai
 
+**Seedance speed tier (inside request `params`, not the top-level product id):** Pass **`"model": "seedance_2.0"`** for **Standard** quality. If you omit this field, the service often defaults to **`seedance_2.0_fast`** (Fast). For this repo’s workflows, **always set Standard explicitly** unless you deliberately want the faster, lighter tier.
+
 ---
 
 ## MCP Config & Chinese Glossary
@@ -80,6 +82,8 @@ Outputs copies or downscaled PNGs into `refs-resized/` (gitignored). On **Window
 
 Multi-modal mix of images, videos, and audio.
 
+The product schema’s default **`functionMode` is `omni_reference`**. If you are using **`image_files` / `video_files` / `audio_files`** and **`@image_file_1`**-style prompts, you do **not** need to send `functionMode` unless you want to be explicit. Send **`functionMode": "first_last_frames"`** only when you are on the **first-frame / last-frame / text-only** path with **`filePaths`** (see below).
+
 - `image_files`: array of image URLs (max 9)
 - `video_files`: array of video URLs (max 3, total ≤ 15s)
 - `audio_files`: array of audio URLs (max 3)
@@ -114,13 +118,21 @@ These are **different pipelines**. Pick one; do not expect `filePaths` and `imag
 
 ## Full API Schema
 
+Inner `params.model` values:
+
+| Value | Meaning |
+|-------|---------|
+| `seedance_2.0` | **Standard** — higher quality; **use this by default** |
+| `seedance_2.0_fast` | **Fast** — quicker / cheaper; only if you intend the fast tier |
+
+If `model` is **omitted** in `params`, the backend commonly falls through to **Fast**. Set `seedance_2.0` explicitly when you want Standard.
+
 ```json
 {
   "parameters": {
     "model": {
       "type": "string",
-      "description": "模型选择：seedance_2.0_fast（快速，默认）/ seedance_2.0（标准）",
-      "default": "seedance_2.0_fast",
+      "description": "模型：seedance_2.0（标准）/ seedance_2.0_fast（快速）。省略时多为 fast；要高画质请显式传 seedance_2.0",
       "enum": ["seedance_2.0_fast", "seedance_2.0"]
     },
     "prompt": {
@@ -180,16 +192,20 @@ These are **different pipelines**. Pick one; do not expect `filePaths` and `imag
 
 ## 速推AI Generate Tool (MCP)
 
-**Top-level parameters** (map to model params):
+Cursor exposes this as **`user-xskill-ai` → `generate`**. The MCP descriptor only lists **top-level** fields; anything Seedance-specific goes in **`options`**, which the server merges into the same **`params`** shape as REST. If you send wrong keys, the API error often includes the **correct schema** for that model — use that to fix the payload (the tool description says the same in Chinese).
 
-| Param | Type | Description |
-|-------|------|-------------|
-| `model` | string | `st-ai/super-seed2` |
-| `prompt` | string | Generation prompt |
-| `image_url` | string | Single image URL (for simple i2v) |
-| `aspect_ratio` | string | e.g. `16:9`, `9:16`, `1:1` |
-| `duration` | string | e.g. `5`, `10` |
-| `options` | object | Model-specific params (functionMode, ratio, filePaths, image_files, video_files, audio_files) |
+**MCP `generate` arguments (actual schema):**
+
+| Param | Required | Description |
+|-------|----------|-------------|
+| `model` | yes | e.g. `st-ai/super-seed2` |
+| `prompt` | yes | Generation prompt |
+| `image_url` | no | Single image URL (simple i2v) |
+| `aspect_ratio` | no | Video ratio, e.g. `16:9`, `9:16` |
+| `duration` | no | Video length as **string**, e.g. `"10"`, `"15"` |
+| `options` | no | Opaque object: Seedance **`params`** such as inner **`model`** (`seedance_2.0`), **`ratio`**, **`duration`** (number OK here), **`image_files`**, **`video_files`**, **`audio_files`**, **`filePaths`**. Omit **`functionMode`** for default omni; set **`first_last_frames`** only with **`filePaths`**. |
+
+**Note:** Top-level `duration` is a string; inside **`options`** the backend often expects **`duration`** as a **number** — follow the error schema if a call fails.
 
 **Example call (simple image-to-video):**
 ```json
@@ -198,7 +214,10 @@ These are **different pipelines**. Pick one; do not expect `filePaths` and `imag
   "prompt": "Korean-style fast-paced action sequence, neon-lit alley",
   "image_url": "https://cdn-video.51sux.com/...",
   "aspect_ratio": "16:9",
-  "duration": "10"
+  "duration": "10",
+  "options": {
+    "model": "seedance_2.0"
+  }
 }
 ```
 
@@ -208,7 +227,7 @@ These are **different pipelines**. Pick one; do not expect `filePaths` and `imag
   "model": "st-ai/super-seed2",
   "prompt": "@image_file_1 中的人物按照 @video_file_1 的动作跳舞",
   "options": {
-    "functionMode": "omni_reference",
+    "model": "seedance_2.0",
     "image_files": ["https://..."],
     "video_files": ["https://..."],
     "ratio": "16:9",
@@ -216,6 +235,25 @@ These are **different pipelines**. Pick one; do not expect `filePaths` and `imag
   }
 }
 ```
+
+### REST (`POST /api/v3/tasks/create`)
+
+Body is **not** flat: wrap generation fields under **`params`**. Include **`params.model`** so jobs are not silently treated as Fast.
+
+```json
+{
+  "model": "st-ai/super-seed2",
+  "params": {
+    "model": "seedance_2.0",
+    "prompt": "…",
+    "ratio": "16:9",
+    "duration": 15,
+    "image_files": ["https://…"]
+  }
+}
+```
+
+Default **`functionMode`** is **`omni_reference`**; omit it when using **`image_files`** unless you want to be explicit.
 
 ---
 

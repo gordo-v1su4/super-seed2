@@ -47,6 +47,7 @@ coverage/
 
 # Local resized reference exports (large binaries)
 refs-resized/
+seedance-refs/
 
 #media files
 *.mp4
