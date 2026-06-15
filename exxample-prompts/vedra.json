@@ -1,0 +1,26 @@
+{
+  "project": "VEDRÀ",
+  "duration_seconds": 12,
+  "aspect_ratio": "2.39:1 anamorphic",
+  "model": "Seedance 2.0 Pro",
+  "prompt_en": "A 12-second cinematic sizzle trailer cut as one fluid montage. Anamorphic 2.39:1, ARRI Alexa 65 look, oval bokeh, subtle horizontal lens flares, heavy film grain, deep teal-and-amber color science. Opens on RAMI, 24, mixed Algerian-British, neck tattoos, fade haircut, black hoodie — sitting in a smoky Ibiza safehouse, single bare bulb above, lit cigarette smoke curling around his face, slow dolly push-in on his eyes. Whip-cut at 2 seconds to a low-angle drone shot skimming over the Mediterranean toward the silhouette of Es Vedrà rock at golden hour, sun bleeding orange. Whip-cut at 4 seconds to a hand passing a small plastic baggie stamped with a circular sigil, extreme macro, shallow focus, the powder inside catching warm tungsten. Whip-cut at 6 seconds to Rami walking through a packed Ushuaïa pool party at night, red neon Ushuaïa sign glowing behind him, slow-motion crowd parting, two heavyset bodyguards in sunglasses flanking him. Whip-cut at 8 seconds to YASMINA, late 20s, curly dark hair, lying in bed beside Rami in a dim hotel room, eyes open, not sleeping, single warm lamp glow. Whip-cut at 10 seconds to a wide aerial of Es Vedrà rising from black water at dawn, the title card 'VEDRÀ' fading in centered in clean white sans-serif. Final beat 11–12 seconds: extreme close-up on Rami's face at night, club lights reflecting in his pupils, a single tear catching the light, he is staring at something he cannot remember. Audio implied: muffled deep-house bassline, distant seagulls, a single Spanish female voice whispering 'no te acuerdas' at the title card. No on-screen text except the final title.",
+  "prompt_zh": "12秒电影级宣传片,作为一段流畅的蒙太奇剪辑。2.39:1 变形宽银幕,ARRI Alexa 65 质感,椭圆形散景,轻微的水平镜头光晕,浓重的胶片颗粒,深青蓝与琥珀色调。开场:RAMI,24岁,阿尔及利亚裔英国混血,颈部纹身,渐变发型,黑色连帽衫——坐在烟雾弥漫的伊比萨安全屋里,头顶一盏裸灯泡,点燃的香烟烟雾缭绕在他脸庞,缓慢推轨特写他的眼睛。第2秒急切:低角度无人机镜头掠过地中海,飞向黄金时刻 Es Vedrà 巨石的剪影,夕阳渗出橙色。第4秒急切:一只手递出一个印有圆形符印的小塑料袋,极致微距,浅景深,袋内粉末映出暖色钨丝光。第6秒急切:Rami 穿过 Ushuaïa 夜店泳池派对,身后红色霓虹 Ushuaïa 招牌发光,慢动作人群分开,两名戴墨镜的壮硕保镖左右护卫。第8秒急切:YASMINA,近30岁,深色卷发,在昏暗酒店房间里躺在 Rami 身旁,睁着眼睛,没有睡着,一盏暖色台灯亮着。第10秒急切:黎明时分 Es Vedrà 从黑色海面升起的航拍广角,片名 'VEDRÀ' 以干净白色无衬线字体居中淡入。最后一拍 11–12 秒:Rami 夜晚的脸部极致特写,夜店灯光在他瞳孔中反射,一滴眼泪映出光芒,他正凝视着某个他无法记起的东西。音频暗示:低沉的深浩室低音节拍,远处海鸥声,片名出现时一个西班牙女性低语 '你不记得了'。除最终片名外无任何屏幕文字。",
+  "negative_prompt": "no cartoon, no anime, no oversaturated colors, no clean digital look, no 16:9, no upbeat music feel, no smiling faces, no daytime tourist energy, no stock-footage transitions, no text overlays except final title card",
+  "technical_notes": {
+    "lens_feel": "Cooke anamorphic 2x squeeze, T2.0",
+    "grain": "Kodak 500T 5219 emulation, heavy",
+    "lut_reference": "Top Boy Season 5 + Zone of Interest day exteriors + Euphoria nightlife pass",
+    "movement": "60% locked-off or slow push, 40% drone/handheld for energy beats",
+    "cut_rhythm": "1 cut every ~1.7s, accelerating slightly toward the title card then holding the final beat for 1.5s"
+  },
+  "xskill_seedance": {
+    "product_model_id": "st-ai/super-seed2",
+    "params": {
+      "model": "seedance_2.0",
+      "ratio": "21:9",
+      "duration": 12,
+      "functionMode": "first_last_frames"
+    },
+    "notes": "xskill ratio enum is 21:9 | 16:9 | … — use 21:9 as closest to 2.39:1. No separate 'Pro' slug in public schema; use inner model seedance_2.0 (Standard) or seedance_2.0_fast (Fast). Text-to-video: omni with no image_files, or first_last_frames with 0 filePaths. Negative prompt is not a documented v3 param; fold constraints into the main prompt. Drug imagery + text-on-screen may fail Dreamina moderation — iterate refs/prompt if status=failed."
+  }
+}

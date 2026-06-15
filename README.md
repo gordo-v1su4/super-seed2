@@ -6,15 +6,9 @@ Notes and assets for **Seedance 2.0** on [xskill.ai](https://www.xskill.ai) (`st
 
 ## For Cursor agents (next time)
 
-**Use the xskill MCP server first** instead of improvising raw HTTP, unless the server is disabled or failing.
+**Start with [`AGENTS.md`](AGENTS.md)** — MCP workflow (`generate` / `get_result`), **`image_files`** pitfalls (private GitHub vs public raw URLs, **`functionMode`**), and a JSON **`generate`** template. Full schema and moderation: **`seedance-super-seed2-api-guide.md`**.
 
-- In MCP tooling it may appear as **`user-xskill-ai`** (HTTP endpoint) or a Chinese label like **速推AI**; same API.
-- **`generate`** — create jobs (`model` + `prompt` required; Seedance extras go in **`options`**). Wrong shapes often return a schema you can fix and retry.
-- **`get_result`** — poll a **`task_id`** after submit.
-- **`search_models`** — confirm model id / parameters when unsure.
-- **`transfer_url`** — optional: rehost an external image/audio URL to their CDN for a stable link (free).
-
-The guide documents how **`options`** maps to REST **`params`**, Standard vs Fast (`seedance_2.0` vs `seedance_2.0_fast`), and when **`functionMode`** matters.
+Briefly: MCP server **`user-xskill-ai`** (**`generate`**, **`get_result`**, **`search_models`**, **`guide`**). Repo **`transfer_url`** may not appear in your Cursor MCP tool list — use durable public **`image_files`** URLs.
 
 ---
 
@@ -54,6 +48,7 @@ Heavy violence / blood / weapons in refs often triggers **Dreamina `status=fail`
 
 | Path | Purpose |
 |------|---------|
+| `AGENTS.md` | Cursor/agent runbook: successful submit recipe, MCP, templates |
 | `seedance-super-seed2-api-guide.md` | Source of truth: schema, MCP, REST, moderation, audio limits |
 | `exxample-prompts/` | Example prompts |
 | `scripts/resize_ref_images.py` | Downscale PNG refs |
