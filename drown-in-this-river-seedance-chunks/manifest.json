@@ -1,0 +1,567 @@
+{
+  "source": "/Users/robertspaniolo/Downloads/Drown In This River (2).wav",
+  "duration": 159.0,
+  "min_chunk": 10.0,
+  "max_chunk": 15.0,
+  "target_chunk": 14.5,
+  "chunk_count": 12,
+  "chunks": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 12.44,
+      "label": "Oh",
+      "filename": "01-oh.mp4",
+      "duration": 12.44
+    },
+    {
+      "index": 2,
+      "start": 12.44,
+      "end": 26.15,
+      "label": "Lost in the darkness trying to find my way",
+      "filename": "02-lost-in-the-darkness-trying-to-find-my-way.mp4",
+      "duration": 13.709999999999999
+    },
+    {
+      "index": 3,
+      "start": 26.15,
+      "end": 40.05,
+      "label": "Sinking in this river can't she the light of day Is on the shoulders that way in me down Drowning in my sorrows feeling like I might drown",
+      "filename": "03-sinking-in-this-river-cant-she-the-light-of-day.mp4",
+      "duration": 13.899999999999999
+    },
+    {
+      "index": 4,
+      "start": 40.05,
+      "end": 55.0,
+      "label": "instrumental",
+      "filename": "04-instrumental.mp4",
+      "duration": 14.950000000000003
+    },
+    {
+      "index": 5,
+      "start": 55.0,
+      "end": 65.41,
+      "label": "Oh",
+      "filename": "05-oh.mp4",
+      "duration": 10.409999999999997
+    },
+    {
+      "index": 6,
+      "start": 65.41,
+      "end": 77.63,
+      "label": "Drown in this river please save me reach out your hand and set my spirit free",
+      "filename": "06-drown-in-this-river-please-save-me-reach-out-you.mp4",
+      "duration": 12.219999999999999
+    },
+    {
+      "index": 7,
+      "start": 77.63,
+      "end": 91.7,
+      "label": "I'm begging for mercy Down on my knees Drown in this river please save me",
+      "filename": "07-im-begging-for-mercy-down-on-my-knees-drown-in-t.mp4",
+      "duration": 14.070000000000007
+    },
+    {
+      "index": 8,
+      "start": 91.7,
+      "end": 105.8,
+      "label": "instrumental",
+      "filename": "08-instrumental.mp4",
+      "duration": 14.099999999999994
+    },
+    {
+      "index": 9,
+      "start": 105.8,
+      "end": 118.45,
+      "label": "instrumental",
+      "filename": "09-instrumental.mp4",
+      "duration": 12.650000000000006
+    },
+    {
+      "index": 10,
+      "start": 118.45,
+      "end": 133.09,
+      "label": "I'm begging for mercy",
+      "filename": "10-im-begging-for-mercy.mp4",
+      "duration": 14.64
+    },
+    {
+      "index": 11,
+      "start": 133.09,
+      "end": 147.55,
+      "label": "I'm begging for mercy",
+      "filename": "11-im-begging-for-mercy.mp4",
+      "duration": 14.460000000000008
+    },
+    {
+      "index": 12,
+      "start": 147.55,
+      "end": 159.0,
+      "label": "Oh",
+      "filename": "12-oh.mp4",
+      "duration": 11.449999999999989
+    }
+  ],
+  "transcript_segments": [
+    {
+      "start": 11.58,
+      "end": 12.44,
+      "text": "Oh",
+      "words": [
+        {
+          "word": "Oh",
+          "start": 11.58,
+          "end": 12.44
+        }
+      ]
+    },
+    {
+      "start": 21.400000000000002,
+      "end": 25.44,
+      "text": "Lost in the darkness trying to find my way",
+      "words": [
+        {
+          "word": "Lost",
+          "start": 21.400000000000002,
+          "end": 22.26
+        },
+        {
+          "word": "in",
+          "start": 22.26,
+          "end": 22.64
+        },
+        {
+          "word": "the",
+          "start": 22.64,
+          "end": 22.82
+        },
+        {
+          "word": "darkness",
+          "start": 22.82,
+          "end": 23.3
+        },
+        {
+          "word": "trying",
+          "start": 23.3,
+          "end": 24.42
+        },
+        {
+          "word": "to",
+          "start": 24.42,
+          "end": 24.66
+        },
+        {
+          "word": "find",
+          "start": 24.66,
+          "end": 24.98
+        },
+        {
+          "word": "my",
+          "start": 24.98,
+          "end": 25.24
+        },
+        {
+          "word": "way",
+          "start": 25.24,
+          "end": 25.669999999999998
+        }
+      ]
+    },
+    {
+      "start": 26.39,
+      "end": 30.69,
+      "text": "Sinking in this river can't she the light of day",
+      "words": [
+        {
+          "word": "Sinking",
+          "start": 26.39,
+          "end": 27.01
+        },
+        {
+          "word": "in",
+          "start": 27.01,
+          "end": 27.49
+        },
+        {
+          "word": "this",
+          "start": 27.49,
+          "end": 27.65
+        },
+        {
+          "word": "river",
+          "start": 27.65,
+          "end": 28.11
+        },
+        {
+          "word": "can't",
+          "start": 28.11,
+          "end": 29.05
+        },
+        {
+          "word": "she",
+          "start": 29.05,
+          "end": 29.17
+        },
+        {
+          "word": "the",
+          "start": 29.17,
+          "end": 29.47
+        },
+        {
+          "word": "light",
+          "start": 29.47,
+          "end": 29.73
+        },
+        {
+          "word": "of",
+          "start": 29.73,
+          "end": 29.91
+        },
+        {
+          "word": "day",
+          "start": 29.91,
+          "end": 30.69
+        }
+      ]
+    },
+    {
+      "start": 31.43,
+      "end": 35.49,
+      "text": "Is on the shoulders that way in me down",
+      "words": [
+        {
+          "word": "Is",
+          "start": 31.18,
+          "end": 31.65
+        },
+        {
+          "word": "on",
+          "start": 31.65,
+          "end": 32.29
+        },
+        {
+          "word": "the",
+          "start": 32.29,
+          "end": 32.39
+        },
+        {
+          "word": "shoulders",
+          "start": 32.39,
+          "end": 32.87
+        },
+        {
+          "word": "that",
+          "start": 32.87,
+          "end": 33.69
+        },
+        {
+          "word": "way",
+          "start": 33.69,
+          "end": 34.07
+        },
+        {
+          "word": "in",
+          "start": 34.07,
+          "end": 34.61
+        },
+        {
+          "word": "me",
+          "start": 34.61,
+          "end": 34.75
+        },
+        {
+          "word": "down",
+          "start": 34.75,
+          "end": 35.49
+        }
+      ]
+    },
+    {
+      "start": 36.150000000000006,
+      "end": 40.05,
+      "text": "Drowning in my sorrows feeling like I might drown",
+      "words": [
+        {
+          "word": "Drowning",
+          "start": 36.150000000000006,
+          "end": 36.81
+        },
+        {
+          "word": "in",
+          "start": 36.81,
+          "end": 37.05
+        },
+        {
+          "word": "my",
+          "start": 37.05,
+          "end": 37.21
+        },
+        {
+          "word": "sorrows",
+          "start": 37.21,
+          "end": 37.97
+        },
+        {
+          "word": "feeling",
+          "start": 37.97,
+          "end": 38.59
+        },
+        {
+          "word": "like",
+          "start": 38.59,
+          "end": 39.01
+        },
+        {
+          "word": "I",
+          "start": 39.01,
+          "end": 39.23
+        },
+        {
+          "word": "might",
+          "start": 39.23,
+          "end": 39.57
+        },
+        {
+          "word": "drown",
+          "start": 39.57,
+          "end": 40.05
+        }
+      ]
+    },
+    {
+      "start": 64.57,
+      "end": 65.41,
+      "text": "Oh",
+      "words": [
+        {
+          "word": "Oh",
+          "start": 64.57,
+          "end": 65.41
+        }
+      ]
+    },
+    {
+      "start": 69.97,
+      "end": 77.63,
+      "text": "Drown in this river please save me reach out your hand and set my spirit free",
+      "words": [
+        {
+          "word": "Drown",
+          "start": 69.97,
+          "end": 70.81
+        },
+        {
+          "word": "in",
+          "start": 70.81,
+          "end": 71.27
+        },
+        {
+          "word": "this",
+          "start": 71.27,
+          "end": 71.89
+        },
+        {
+          "word": "river",
+          "start": 71.89,
+          "end": 72.59
+        },
+        {
+          "word": "please",
+          "start": 72.59,
+          "end": 73.87
+        },
+        {
+          "word": "save",
+          "start": 73.87,
+          "end": 74.27
+        },
+        {
+          "word": "me",
+          "start": 74.27,
+          "end": 74.75
+        },
+        {
+          "word": "reach",
+          "start": 74.75,
+          "end": 75.09
+        },
+        {
+          "word": "out",
+          "start": 75.09,
+          "end": 75.45
+        },
+        {
+          "word": "your",
+          "start": 75.45,
+          "end": 75.65
+        },
+        {
+          "word": "hand",
+          "start": 75.65,
+          "end": 76.07
+        },
+        {
+          "word": "and",
+          "start": 76.07,
+          "end": 76.27
+        },
+        {
+          "word": "set",
+          "start": 76.27,
+          "end": 76.55
+        },
+        {
+          "word": "my",
+          "start": 76.55,
+          "end": 76.85
+        },
+        {
+          "word": "spirit",
+          "start": 76.85,
+          "end": 77.21
+        },
+        {
+          "word": "free",
+          "start": 77.21,
+          "end": 77.63
+        }
+      ]
+    },
+    {
+      "start": 77.63,
+      "end": 79.35,
+      "text": "I'm begging for mercy",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 77.63,
+          "end": 78.09
+        },
+        {
+          "word": "begging",
+          "start": 78.09,
+          "end": 78.43
+        },
+        {
+          "word": "for",
+          "start": 78.43,
+          "end": 78.67
+        },
+        {
+          "word": "mercy",
+          "start": 78.67,
+          "end": 79.35
+        }
+      ]
+    },
+    {
+      "start": 79.91000000000001,
+      "end": 83.37,
+      "text": "Down on my knees",
+      "words": [
+        {
+          "word": "Down",
+          "start": 79.61,
+          "end": 80.31
+        },
+        {
+          "word": "on",
+          "start": 80.31,
+          "end": 81.01
+        },
+        {
+          "word": "my",
+          "start": 81.01,
+          "end": 81.47
+        },
+        {
+          "word": "knees",
+          "start": 81.47,
+          "end": 83.37
+        }
+      ]
+    },
+    {
+      "start": 83.91000000000001,
+      "end": 89.19000000000001,
+      "text": "Drown in this river please save me",
+      "words": [
+        {
+          "word": "Drown",
+          "start": 83.91000000000001,
+          "end": 84.77
+        },
+        {
+          "word": "in",
+          "start": 84.77,
+          "end": 85.09
+        },
+        {
+          "word": "this",
+          "start": 85.09,
+          "end": 85.29
+        },
+        {
+          "word": "river",
+          "start": 85.29,
+          "end": 86.71
+        },
+        {
+          "word": "please",
+          "start": 86.71,
+          "end": 88.25
+        },
+        {
+          "word": "save",
+          "start": 88.25,
+          "end": 88.95
+        },
+        {
+          "word": "me",
+          "start": 88.95,
+          "end": 89.65
+        }
+      ]
+    },
+    {
+      "start": 131.69,
+      "end": 139.33,
+      "text": "I'm begging for mercy",
+      "words": [
+        {
+          "word": "I'm",
+          "start": 131.69,
+          "end": 133.09
+        },
+        {
+          "word": "begging",
+          "start": 133.09,
+          "end": 133.21
+        },
+        {
+          "word": "for",
+          "start": 133.21,
+          "end": 136.13
+        },
+        {
+          "word": "mercy",
+          "start": 136.13,
+          "end": 139.33
+        }
+      ]
+    },
+    {
+      "start": 157.57,
+      "end": 158.97,
+      "text": "Oh",
+      "words": [
+        {
+          "word": "Oh",
+          "start": 157.57,
+          "end": 158.97
+        }
+      ]
+    }
+  ]
+}

@@ -49,5 +49,14 @@ coverage/
 refs-resized/
 seedance-refs/
 
-#media files
+# Local media — working copies; do not commit (except canonical example below)
 *.mp4
+*.mov
+*.webm
+*.wav
+*.mp3
+*.m4a
+
+# Canon Seedance song-chunk example (public raw URLs for video_files refs)
+!drown-in-this-river-seedance-chunks/
+!drown-in-this-river-seedance-chunks/**
