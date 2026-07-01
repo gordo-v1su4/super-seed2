@@ -1,6 +1,52 @@
 # Agent runbook — super-seed2 + xskill
 
-Read this **before** improvising Seedance submits. Deep reference: **`seedance-super-seed2-api-guide.md`**. Humans: **`README.md`**.
+Read this **before** improvising Seedance submits. Deep reference: **`seedance-super-seed2-api-guide.md`** (legacy **`st-ai/super-seed2`**). **Preferred (2026-06+):** Ark API — [llms.txt](https://api.apiz.ai/api/v3/models/ark%2Fseedance-2.0/llms.txt). Humans: **`README.md`**.
+
+---
+
+## Preferred: `ark/seedance-2.0` (Ark API direct)
+
+Use this instead of **`st-ai/super-seed2`** when the legacy wrapper keeps failing. Same xskill MCP (`generate` / `submit_task`); different **model id** and **param names**.
+
+| Legacy (`st-ai/super-seed2`) | Ark (`ark/seedance-2.0`) |
+|------------------------------|---------------------------|
+| `options.image_files` | `options.reference_images` |
+| `options.video_files` | `options.reference_videos` |
+| `options.audio_files` | `options.reference_audios` |
+| `options.filePaths` (first/last frame) | `options.image_url` + optional `options.end_image_url` |
+| `functionMode` | **Not used** — mode implied by which fields you set |
+| Fixed price (~1350 pts / 15s) | **Token post-pay**; platform may **hold ~45 yuan** for 10s / 720p / Standard |
+| — | `options.resolution`: `480p` / `720p` (Fast + Standard); **`1080p` Standard only** |
+| — | `options.generate_audio`: default `true`; set **`false`** to reduce cost |
+
+**Canonical Ark submit (omni refs, Nina sheet):**
+
+```json
+{
+  "model": "ark/seedance-2.0",
+  "prompt": "(English prompt; still use @image_file_1 in text for ref binding)",
+  "duration": "10",
+  "aspect_ratio": "16:9",
+  "options": {
+    "model": "seedance_2.0",
+    "ratio": "16:9",
+    "resolution": "720p",
+    "duration": 10,
+    "generate_audio": false,
+    "watermark": false,
+    "reference_images": [
+      "https://raw.githubusercontent.com/gordo-v1su4/super-seed2/main/exxample-prompts/refs/NinaVale.png"
+    ]
+  }
+}
+```
+
+**Notes from live tests (2026-06):**
+
+- **`seedance_2.0_fast`** may return *endpoint does not exist* on some accounts — prefer **`seedance_2.0`** Standard.
+- **Balance:** Ark holds more than legacy flat rate; **10s / 720p / Standard + ref** needed **4500 pts** hold with **4170 pts** on account → **~330 pts short**. Top up **~500 pts** or shorten duration / disable audio before retry.
+- **`reference_images`** and **`image_url`** are **mutually exclusive** (first-frame vs omni ref).
+- REST parity: `POST https://api.apiz.ai/api/v3/tasks/create` with `"model": "ark/seedance-2.0"` and nested **`params`** — see [llms.txt](https://api.apiz.ai/api/v3/models/ark%2Fseedance-2.0/llms.txt).
 
 ---
 
@@ -12,7 +58,8 @@ Successful Super Seed (**`st-ai/super-seed2`**) job pattern:
 |-------|-----------|-------------------|
 | **Transport** | xskill MCP **`generate`** → poll **`get_result`** | Ad‑hoc guesses; flaky third‑party hosts only |
 | **Inner quality** | **`options.model`:** **`seedance_2.0`** (Standard) | Omitting inner model → often **Fast** by default |
-| **Refs + `@` tags** | **`image_files`:** single public HTTPS PNG; prompt uses **`@image_file_1`** | **`functionMode`: `first_last_frames`** **without** **`filePaths`** — wrong pipeline for indexed refs (`@image_file_1`) |
+| **Refs + `@` tags** | **`image_files`:** public HTTPS PNG; prompt uses **`@image_file_1`** only for identity | **`@image_file_2`** on a **3×3 mood/keyframe grid** — model copies panels literally, messy output |
+| **Silent mood grid** | **Upload** grid as `image_files[1]`; **do not `@` it** in prompt — ambient grade/mood only | Listing five mood boards each with `@image_file_N` in prompt |
 | **Image URLs** | **`raw.githubusercontent.com/...`** for a file **actually on `main` and pushed** | **Private repo** (raw 403/404 for workers); **`.../main/NinaVale.png`** when PNG only existed **locally untracked** → **404** |
 | **`image_files` order** | First URL binds **`@image_file_1`** | Mismatch with prompt indices |
 
@@ -33,7 +80,7 @@ Assume the server is **`user-xskill-ai`** (速推 AI / same HTTP API).
 |------|-----|
 | **`generate`** | Submit image/video tasks. **`model` + `prompt` required.** Seedance knobs in **`options`**. |
 | **`get_result`** | **`task_id`** until **`completed`** / **`failed`**. Recent failures list with **`limit` + `status`**. |
-| **`search_models`** | Confirm **`st-ai/super-seed2`** / params when schema errors. |
+| **`search_models`** | Confirm **`ark/seedance-2.0`** or legacy **`st-ai/super-seed2`** / params when schema errors. |
 | **`guide`** | Optional tutorials (`query` / `skill_id`); Seedance‑specific prose may be sparse — still use repo guide.
 
 **Note:** Repo **`README`** mentions MCP **`transfer_url`**; **your Cursor MCP schema may not expose it.** If absent, rely on **public HTTPS** refs (GitHub raw, object storage with public GET, reputable temp host).
@@ -42,9 +89,9 @@ Assume the server is **`user-xskill-ai`** (速推 AI / same HTTP API).
 
 ---
 
-## Canonical submit template (Seedance omni refs, English prompt)
+## Legacy: `st-ai/super-seed2` (Dreamina wrapper)
 
-Omni **`@image_file_N`** refs: **do not** set **`first_last_frames`** unless you intentionally use **`filePaths`** first/last frame (see **`seedance-super-seed2-api-guide.md`**).
+Use only if Ark is unavailable. Omni **`@image_file_N`** refs: **do not** set **`first_last_frames`** unless you intentionally use **`filePaths`** first/last frame (see **`seedance-super-seed2-api-guide.md`**).
 
 Minimal mental model for **`generate`**:
 
@@ -107,4 +154,4 @@ Not part of Seedance submits. Operator may disable Cursor MemPalace **stop** hoo
 
 ---
 
-End state for a repeat “TIKTOK DRUG DYNASTY teaser + Nina Vale sheet”: use **`tiktok-drug-dynasty-teaser.json`** prompt text plus **`generate`** **`options`** as above — omit **`functionMode`** when using **`image_files`** with **`@image_file_1`** (default omni).
+End state for a repeat “TIKTOK DRUG DYNASTY teaser + Nina Vale sheet”: use **`tiktok-drug-dynasty-teaser.json`** prompt text with **`ark/seedance-2.0`** + **`reference_images`** (or legacy **`st-ai/super-seed2`** + **`image_files`**).

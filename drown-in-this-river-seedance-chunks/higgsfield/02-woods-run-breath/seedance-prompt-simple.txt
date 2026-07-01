@@ -1,0 +1,20 @@
+@[Image 1](image_1) — match her likeness, costume, and wet look consistently throughout. @[Video 1](video_1) is the master audio; sync all lip-sync and performance timing to it exactly.
+
+【Style】Cinematic music video, 2.39:1 anamorphic, dark uphill storm forest, heavy rain, crushed teal-black grade, yellow dress as faint warm accent. Off-camera lightning flickers only — never show the bolt in frame.
+【Duration】~13.7s track synced from 0.0s; 15s container. End when the vocal ends (~13.1s). No post-roll.
+
+【Constraints】No on-screen text, no subtitles, no captions, no lyrics burned into frame. No hard montage cuts, no flashbacks. Smooth continuous camera — one shot feel. Same forest throughout. No tree climb, no city, no flood wide. No limb warping.
+
+0.0–3.3s: Nia runs uphill barefoot through near-black woods, mostly silhouette. Lip-sync to opening ad-lib vocals in Video 1 from ~0.9s.
+
+3.3–5.6s: Still running, instrumental in Video 1 — mouth closed, struggle and rain only.
+
+5.6–8.0s: Vocal riff in Video 1 — her peak call, head back, full-body gospel energy, lip-sync the ad-libs exactly.
+
+8.0–9.1s: Energy drops — she stills against a trunk, collects herself, heavy breath, quiet.
+
+9.1–13.1s: Main lyric vocal in Video 1 — subdued lip-sync, smaller movements, inward. First readable face ~9.1s when reverse-side lightning washes her once; then mostly dark again. End on the last syllable.
+
+【Audio】Continuous sync to @[Video 1](video_1). Do not mute or drop the mix.
+
+【References】@Image 1 likeness. Second uploaded image is mood only — do not @ it.

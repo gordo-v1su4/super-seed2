@@ -1,0 +1,19 @@
+@[Image 1](image_1) is Nia's identity and style lock — match her face, eyes, hair, skin tone, yellow dress, and the storm-soaked forest environment exactly and consistently throughout. @[Video 1](video_1) is the music track, 13.9 seconds — the master for all audio, accents, and every vocal line. Create a 15-second video synced to Video 1 from 0.0s through 13.9s — **no content after the track ends**; resolve on the last syllable **"drown"** at **13.82s**. All lip-sync hits must match the vocal timing of @[Video 1](video_1) exactly.
+
+Continuation of episode 02 — same tree, same wet look, same crushed dark grade. **Near-black** except intermittent **off-camera reverse-side lightning** (bolt never in frame). Intimate camera, subtle hard cuts on phrase boundaries only — not a run-up. Uploaded reference mood boards inform framing and lighting tone only — do not copy literally.
+
+2.39:1 anamorphic — ARRI Alexa 65, Cooke 2x anamorphic oval bokeh, Kodak 500T grain, deep teal woods vs warm gold dress, purple-grey storm canopy. No face drift, no costume mutation, no limb warping. No tree climb, height reveal, city, or flood wide.
+
+Open at **0.0s** as Video 1 begins — medium close at the trunk, rain streaming, same collected stillness as the end of *find my way*. **Vocal enters immediately** — lip-sync **"Sinking in this river can't see the light of day"** word-perfect **0.0s through 4.36s**: **Sinking** 0.0, **river** ~1.5, **light of day** ~3.3–4.4. Subdued delivery, smaller jaw — not the big riff energy from the prior chunk. One hand on bark, eyes searching.
+
+**4.36s–5.16s** — instrumental gap: micro-sway, rain on cheek, chest rises; no lip sync.
+
+At **5.16s**, line two — lip-sync **"Is on the shoulders that weigh me down"** through **9.32s**: shoulders slump under the weight; slow push-in; reverse-side lightning at **~7.4s** on **"shoulders"**.
+
+**9.32s–10.0s** — brief gap: trembling inhale, rain on lashes.
+
+At **10.0s**, line three — lip-sync **"Drowning in my sorrows feeling like I might drown"** through **13.82s** — most intense but still **restrained** vs the gospel call; fingers tighten on bark; mouth locked to Video 1 on **Drowning** 10.0, **sorrows** ~11.0, **might drown** ~13.1–13.8.
+
+Hold **"drown"** through **13.82s**; **end as Video 1 ends** — no tail.
+
+Total: 15s max / 13.9s track / 2.39:1 / line1 0.0–4.36 / line2 5.16–9.32 / line3 10.0–13.82 / no post-roll

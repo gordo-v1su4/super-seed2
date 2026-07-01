@@ -1,0 +1,72 @@
+{
+  "goal": "cinematic_storyboard_grid",
+  "scene": "3x3 storyboard grid — Episode 03 vocal continuation at tree, three lyric phrases",
+  "resolution": "2K",
+  "aspect_ratio": "1:1",
+  "reference_images": [
+    {
+      "image_id": 1,
+      "purpose": "character identity lock",
+      "extract": "exact face, gold hoops, gold necklace, sun-yellow sleeveless dress, wet dark wavy hair, barefoot",
+      "apply_to": "Nia in panels 2-9 — same woman, same wet look as end of episode 02"
+    }
+  ],
+  "blend_instructions": "Image 1 for identity only. Scene is woods at night, hand on tree trunk — do not copy Image 1 layout.",
+  "grid": {
+    "layout": "3 rows x 3 columns",
+    "gutter": "thin black lines",
+    "panel_aspect": "2.39:1",
+    "same_character_all_panels": true
+  },
+  "global_style": {
+    "look": "photorealistic music-video stills",
+    "camera": "ARRI Alexa 65, Cooke anamorphic",
+    "film_stock": "Kodak 500T grain",
+    "color_grade": {
+      "palette": ["deep teal", "navy shadow", "sun-yellow dress", "purple-grey storm"]
+    },
+    "weather": "night forest, torrential rain, ground level only"
+  },
+  "panels": [
+    {
+      "cell": "1 top-left",
+      "description": "Medium close continuation — Nia at wet trunk, hand on bark, rain, exhausted, lips parted before first lyric"
+    },
+    {
+      "cell": "2 top-center",
+      "description": "Lip sync line 1 — singing Sinking in this river, eyes searching upward, rain on face"
+    },
+    {
+      "cell": "3 top-right",
+      "description": "Close on mouth mid-phrase can't see the light of day, wet hair on cheeks"
+    },
+    {
+      "cell": "4 middle-left",
+      "description": "Breath gap — eyes closed, rain on lashes, chest heaving, fingers on bark"
+    },
+    {
+      "cell": "5 center",
+      "description": "Line 2 — shoulders slump, singing weigh me down, slow push-in energy"
+    },
+    {
+      "cell": "6 middle-right",
+      "description": "Lightning flash across eyes mid-line 2, gold hoops glint"
+    },
+    {
+      "cell": "7 bottom-left",
+      "description": "Line 3 intense — Drowning in my sorrows, jaw tense, most desperate delivery"
+    },
+    {
+      "cell": "8 bottom-center",
+      "description": "Fingers tighten on bark, singing might drown, rain streaks"
+    },
+    {
+      "cell": "9 bottom-right",
+      "description": "Hold after last word — empty mouth opening for breath, rain, thunder mood, still no vista"
+    }
+  ],
+  "constraints": {
+    "must_include": ["9 panels", "same Nia from Image 1", "hand on tree in most panels"],
+    "must_avoid": ["tree climb", "city", "flood wide", "underwater", "different faces", "text overlays"]
+  }
+}

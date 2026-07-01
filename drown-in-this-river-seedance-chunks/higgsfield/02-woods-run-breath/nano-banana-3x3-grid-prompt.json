@@ -1,0 +1,95 @@
+{
+  "goal": "cinematic_storyboard_grid",
+  "scene": "3x3 storyboard grid for Drown In This River — Episode 02 woods run, breath pause, lip sync opening",
+  "resolution": "2K",
+  "aspect_ratio": "1:1",
+  "reference_images": [
+    {
+      "image_id": 1,
+      "purpose": "character identity lock",
+      "extract": "exact face, skin tone, gold hoop earrings, thin gold necklace, sun-yellow sleeveless high-low dress, wet dark wavy hair length, barefoot, athletic build",
+      "apply_to": "Nia in panels 2 through 9 — same woman every panel"
+    }
+  ],
+  "blend_instructions": "Use Image 1 only for character identity. Do not copy Image 1 composition or background — invent new forest frames per panel.",
+  "grid": {
+    "layout": "3 rows x 3 columns",
+    "gutter": "thin black lines between cells",
+    "panel_aspect": "2.39:1 cinematic inside each cell",
+    "same_character_all_panels": true
+  },
+  "global_style": {
+    "look": "photorealistic music-video stills, NOT illustration",
+    "camera": "ARRI Alexa 65, Cooke anamorphic oval bokeh",
+    "film_stock": "Kodak 500T grain",
+    "color_grade": {
+      "tone": "deep teal storm woods vs warm gold dress",
+      "palette": ["deep teal", "navy shadow", "sun-yellow dress", "purple-grey storm sky"]
+    },
+    "weather": "night, torrential rain, uphill Pacific Northwest dense forest",
+    "lighting": "mostly dark; lightning flashes and one restrained rim light on face in later panels"
+  },
+  "panels": [
+    {
+      "cell": "1 top-left",
+      "subject": "environment only",
+      "description": "Wide steep muddy uphill path through towering dark trunks, rain sheets, oppressive scale, no person visible"
+    },
+    {
+      "cell": "2 top-center",
+      "subject": "Nia running",
+      "description": "Profile tracking still — sprinting uphill left-to-right, barefoot splashing mud, yellow dress trailing, trees motion-blur past, handheld energy"
+    },
+    {
+      "cell": "3 top-right",
+      "subject": "bare feet",
+      "description": "Low angle — bare feet pounding roots and puddle, soaked dress hem, lightning flash reflecting in water"
+    },
+    {
+      "cell": "4 middle-left",
+      "subject": "lightning silhouette",
+      "description": "Full-body profile mid-stride between trunks, mostly silhouette, yellow dress edge-lit white, rain frozen in flash"
+    },
+    {
+      "cell": "5 center",
+      "subject": "stop",
+      "description": "Palm slams mossy trunk, knees bent, head down, shoulders heaving, rain on back, panicked survival posture"
+    },
+    {
+      "cell": "6 middle-right",
+      "subject": "gasp close-up",
+      "description": "Close face — mouth open gasping, rain on cheeks, frightened eyes, gold hoops faint glint, mostly dark frame"
+    },
+    {
+      "cell": "7 bottom-left",
+      "subject": "lightning wide",
+      "description": "Forest wide — bolt illuminates entire tree line one instant, Nia small holding trunk"
+    },
+    {
+      "cell": "8 bottom-center",
+      "subject": "face light",
+      "description": "Subtle storm-born rim light on face and collarbones only; rest deep teal shadow; intimate not cheesy religious god-ray"
+    },
+    {
+      "cell": "9 bottom-right",
+      "subject": "lip sync",
+      "description": "Medium close singing toward camera, wet hair on temples, exhausted, lyric moment Lost in the darkness, dress saturated, rain continuing"
+    }
+  ],
+  "constraints": {
+    "must_include": [
+      "exactly 9 panels in one image",
+      "same Nia from Image 1 in every panel that shows her",
+      "consistent yellow dress and wet hair across panels"
+    ],
+    "must_avoid": [
+      "tree climbing or branch perch",
+      "city skyline or flood ocean wide",
+      "underwater",
+      "different faces or outfits between panels",
+      "cartoon or illustration style",
+      "text overlays or watermarks",
+      "copying Image 1 background literally"
+    ]
+  }
+}

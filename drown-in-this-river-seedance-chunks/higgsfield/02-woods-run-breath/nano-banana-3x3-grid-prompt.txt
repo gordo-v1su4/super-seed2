@@ -1,0 +1,19 @@
+Attach Image 1 = Nia character sheet before generating.
+Preferred: paste nano-banana-3x3-grid-prompt.json (structured refs with image_id: 1).
+Plain-text fallback below if JSON is not accepted:
+
+---
+
+Cinematic photorealistic music-video 3x3 storyboard grid, single square image, 9 equal panels with thin black gutters, 2.39:1 framing inside each cell. Match Image 1 for Nia identity only — face, gold hoops, gold necklace, sun-yellow sleeveless dress, wet dark wavy hair, barefoot; do NOT copy Image 1 background or pose. Same woman in every panel that shows her. Global: night storm uphill forest, torrential rain, deep teal shadows, warm gold dress, Kodak 500T, ARRI Alexa 65, Cooke anamorphic bokeh.
+
+Panel 1 top-left: environment wide, muddy uphill path, dark trunks, rain, no person.
+Panel 2 top-center: profile run uphill, barefoot mud splash, dress trailing.
+Panel 3 top-right: low angle bare feet on roots, lightning in puddle.
+Panel 4 middle-left: lightning silhouette mid-stride between trunks.
+Panel 5 center: stops, palm on trunk, gasping, panicked posture.
+Panel 6 middle-right: close gasping face, rain, frightened eyes.
+Panel 7 bottom-left: lightning wide, bolt on tree line, she small at trunk.
+Panel 8 bottom-center: subtle rim light on face only, rest dark teal.
+Panel 9 bottom-right: medium close lip sync, singing, wet hair, exhausted.
+
+No tree climb, no city, no flood wide, no underwater, no illustration style, no text overlays.

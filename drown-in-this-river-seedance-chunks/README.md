@@ -26,3 +26,14 @@ https://raw.githubusercontent.com/gordo-v1su4/super-seed2/main/drown-in-this-riv
 Cut times and lyric labels: `manifest.json`.
 
 Skill: `.cursor/skills/prepare-song-for-seedance/SKILL.md`
+
+## Prompts
+
+**Higgsfield (direct Seedance UI):**
+
+| Ep | Folder |
+|----|--------|
+| 02 | `higgsfield/02-woods-run-breath/` |
+| 03 | `higgsfield/03-sinking-vocal/` |
+
+Legacy rapids test: `prompts/rapids-dance-13s-oner-beat-sync.txt`. Old combined storyboard: `02-03-woods-run-breath_storyboard.md` (pointer only).
