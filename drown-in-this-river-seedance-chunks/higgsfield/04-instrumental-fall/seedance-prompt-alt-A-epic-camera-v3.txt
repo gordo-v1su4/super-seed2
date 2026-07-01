@@ -1,0 +1,21 @@
+# version: v3 (current — flooded city river + epic camera)
+# episode: 04 instrumental fall
+
+@[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Video 1](video_1) is the master audio; sync scream, breath, fall, and impact to it exactly.
+
+【Style】Cinematic music video, 2.39:1 anamorphic, crushed teal-black storm grade. Michael Bay–influenced fall camera — spiral, low-angle hero, high-angle plunge reveal. **Environment lock:** massive **city-destroying flood river** below — dark turbulent current, debris, submerged ruins, whitecaps. **Never** calm blue still water or peaceful forest lake. No lightning bolts in frame.
+【Duration】15s container · end hard on water impact (~14.5–14.9s).
+
+【Constraints】No on-screen text, no subtitles, no captions, no lyric words burned in. Do not quote sung or synth syllables from Video 1. Overlap OK.
+
+0.0–5.0s: Already falling — scream on opening accent. Low angle up; SFX-forward breath and rain. Slow spiral. First glimpse of river below must show **flood devastation**, not blue calm.
+
+5.0–11.0s: Music swells — slow-motion fall. **High-angle snap:** reveal the **ruined city in the flood** — buildings half-submerged, debris trains in the current, yellow dress against dark churning water. Trailing hero and overhead passes.
+
+11.0–13.5s: Spiral tightens; snap to real-time as **raging flood surface** dominates frame — foam, wreckage streaks, rain.
+
+13.5–14.9s: She crashes into the **massive flood river** on the final accent — colossal splash in churning water. **End on impact.**
+
+【Audio】Continuous sync to @[Video 1](video_1).
+
+【References】@Image 1 likeness. Second uploaded image is mood only — do not @ it.

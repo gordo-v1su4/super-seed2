@@ -1,44 +1,40 @@
-# Chunk 03 — verified timing (Higgsfield)
+# Chunk 03 — verified timing + story (Higgsfield)
 
 **Video 1:** `03-sinking-in-this-river-cant-she-the-light-of-day.mp4`  
-**Duration:** **13.909 s** (ffprobe + Whisper)  
-**Higgsfield:** **15 s** container · sync **0 → 13.9 s** · **no tail**
+**Duration:** **13.909 s** · **15 s** container · **no tail**
 
-> Cross-checked 2026-06-30 with faster-whisper on the chunk MP4.
+## Story (this episode)
 
-## Vocal map (chunk file)
+Continue dark woods walk → moonlit clearing (ambiguous) → notices trunk bridge → walk out slowly → height hidden until orbit on final phrase → trunk breaks → launch begins (full flight = chunk 04+). No visible lightning bolts.
 
-| Time | Words (Whisper) | Visual |
+## Vocal map
+
+| Time | Vocal (Video 1) | Visual |
 |------|-----------------|--------|
-| **0.00–4.36** | *Sinking in this river can't see the light of day* | Lip sync from **first frame** — continuation of ep 02 |
-| **4.36–5.16** | *instrumental* | Breath gap, sway, rain |
-| **5.16–9.32** | *Is on the shoulders that weigh me down* | Line 2 — slump, push-in |
-| **9.32–10.00** | *instrumental* | Inhale, still |
-| **10.00–13.82** | *Drowning in my sorrows feeling like I might drown* | Line 3 — peak intensity, still restrained |
-| **13.82** | last syllable **drown** | **End** |
+| **0.00–4.36** | Opening phrase | Continue walk; clearing brightens; spot trunk bridge |
+| **4.36–5.16** | instrumental | Step onto trunk |
+| **5.16–8.44** | Second phrase (restrained) | Walk outward — low follow cam, no height reveal |
+| **8.44–9.32** | Second phrase riff | Animated peak — slump then burst, melismatic lip-sync |
+| **9.32–10.00** | instrumental | Pause on trunk |
+| **10.00–12.14** | Third phrase opens | Far out on trunk, restrained |
+| **12.14–13.82** | Final phrase | Orbit reveal height · trunk breaks · lift starts · end on last syllable |
 
-## Word-level (lip sync)
+## Final phrase word times (for editor only — do not paste into prompts)
 
-**Line 1:** Sinking 0.00 · in 0.86 · this 1.34 · river 1.50 · can 2.38 · the 3.32 · light 3.58 · of 3.76 · day 3.76–4.36  
+feeling **12.14** · like **12.48** · might **13.08** · drown **13.42–13.82**
 
-**Line 2:** Is/on 5.16–6.14 · shoulders 6.26–6.72 · that 7.42 · weigh 7.52–7.90 · me down 8.44–9.32  
+Break should land in **12.1–13.8** window, peaking at last syllable.
 
-**Line 3:** Drowning 10.00 · sorrows 11.04–11.82 · feeling 12.14 · like 12.48 · might 13.08 · drown 13.42–13.82  
+## Prompts
 
-## Phrase-boundary cuts
+| Label | File | Final-phrase camera |
+|-------|------|---------------------|
+| Option 1 | `seedance-prompt-simple.txt` | Slow orbit reveal |
+| Option 2 | `seedance-prompt.txt` | Orbit (detailed) |
+| Alt A | `seedance-prompt-alt-A-michael-bay.txt` | Low angle → crouch → rotate with stand → ECU eyes → boom pull-out |
 
-**4.36 · 5.16 · 9.32 · 10.0 s** — optional accent peaks: 0.51, 1.11, 1.86, 2.6, 3.2, 4.04, 5.36, 6.41, 7.41, 8.75, 10.26, 11.28, 12.21, 13.26  
+See `PROMPT-FORMAT.md` for subtitle-safe wording.
 
-## vs. old prompt (manifest)
+## Next chunk (not this one)
 
-| Old | Verified |
-|-----|----------|
-| Line 1 from **0.24 s** | Line 1 from **0.00 s** |
-| Line 1 ends **4.54 s** | **4.36 s** |
-| Line 2 **5.28–9.34 s** | **5.16–9.32 s** |
-| Line 3 ends **13.2 s** | **13.82 s** |
-| Post-roll 13.9–15 s | **Removed** |
-
-Analyzer: `uv run --with faster-whisper --with numpy --with scipy scripts/analyze_seedance_chunk_timing.py drown-in-this-river-seedance-chunks/03-sinking-in-this-river-cant-she-the-light-of-day.mp4`
-
-Prompt: `seedance-prompt.txt`
+Full launch / fall / next lyric section — after trunk fully gives way.

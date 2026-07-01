@@ -1,0 +1,22 @@
+# version: v2 (archived — end on water impact ~14.8s; water env not locked)
+# supersedes: v1 for end-point only; keep v1 if you want underwater oh coverage in overlap edit
+# episode: 04 instrumental fall
+
+@[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Video 1](video_1) is the master audio; sync scream, breath, fall, and impact to it exactly.
+
+【Style】Cinematic music video, 2.39:1 anamorphic, storm gorge above a dark flood river, heavy rain, crushed teal-black grade. No visible lightning bolts.
+【Duration】15s container · track ~14.95s · use nearly the full length · end hard on water impact (~14.5–14.9s). No underwater aftermath, no post-splash hold.
+
+【Constraints】No on-screen text, no subtitles, no captions, no lyrics burned into frame. Do not quote any sung or synth syllables from Video 1. One continuous episode feel — no hard montage. No city wide. No limb warping. Overlap with adjacent chunks is fine — this clip does not need to match chunk 03 or 05 exactly.
+
+0.0–5.0s: Hard continuation — already falling from the broken trunk. Scream, wind, rain, wood debris. Music in Video 1 feels distant or stripped — prioritize scream trailing into ragged breath and rush of air. Slow motion. She tumbles; falsetto on exhale only, no lyric words. Camera close follow, rain into lens.
+
+5.0–11.0s: Music in Video 1 comes forward — still slow-motion fall through the storm. Yellow dress balloons, hair whips, gorge and river below. Epic smooth camera: trailing god-shot or slow orbit. Terror and surrender; breath synced to mid-chunk phrasing in Video 1.
+
+11.0–13.5s: Motion accelerates toward real-time — river surface rises in frame. Rain, speed, gravity. Eyes may close. Building to the final accent in Video 1.
+
+13.5–14.9s: Final approach — water fills the frame. On the last major accent in Video 1 (~14.5–14.9s) she **hits the water** — massive splash, body slams through the surface, plunge begins. **End on the impact** — cut on the boom, do not show deep underwater, synth figure, or ad-lib vocal (save for overlap / chunk 05 coverage).
+
+【Audio】Continuous sync to @[Video 1](video_1). Opening reads SFX-forward; music swells from ~5s; impact locked to final peak in Video 1.
+
+【References】@Image 1 likeness. Second uploaded image is mood only — do not @ it.

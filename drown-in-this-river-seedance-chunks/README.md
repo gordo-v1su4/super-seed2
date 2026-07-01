@@ -35,5 +35,6 @@ Skill: `.cursor/skills/prepare-song-for-seedance/SKILL.md`
 |----|--------|
 | 02 | `higgsfield/02-woods-run-breath/` |
 | 03 | `higgsfield/03-sinking-vocal/` |
+| 04 | `higgsfield/04-instrumental-fall/` |
 
 Legacy rapids test: `prompts/rapids-dance-13s-oner-beat-sync.txt`. Old combined storyboard: `02-03-woods-run-breath_storyboard.md` (pointer only).

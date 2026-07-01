@@ -1,0 +1,30 @@
+# version: v1 (archived — early impact + underwater oh coverage for overlap edit)
+# episode: 04 instrumental fall
+@[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Video 1](video_1) is the master audio; sync scream, breath, impact, and all lip-sync to it exactly.
+
+【Style】Cinematic music video, 2.39:1 anamorphic, storm gorge above a dark flood river, heavy rain, crushed teal-black grade. No visible lightning bolts. Underwater grade: deeper teal, muted, bubbles and caustics only.
+【Duration】~15.0s container · track ~14.95s · end on beat-2 ad-lib vocal in Video 1 (~12.7s). No post-roll into chunk 05.
+
+【Constraints】No on-screen text, no subtitles, no captions, no lyrics burned into frame. Do not quote any sung or synth syllables from Video 1 — timing and phrase labels only. One continuous episode feel — no hard montage. No city wide. No limb warping.
+
+0.0–1.2s: Hard continuation from prior chunk — she is already falling from the broken trunk above the gorge. Mouth open on scream synced to opening accent in Video 1. Rain, wind, wood debris. No replay of branch walk.
+
+1.2–3.2s: Music in Video 1 feels stripped back — scream fades to ragged breath, rush of air, rain on skin. Slow motion begins. She tumbles in falsetto glide on breath, not full lyrics. Camera follows close, slightly below, rain streaking past.
+
+3.2–9.5s: Extended slow-motion fall through the storm — yellow dress balloons, hair whips, body rotates. Camera epic but smooth: slow orbit or trailing god-shot, gorge walls and river far below. Performance: terror, surrender, soft falsetto on exhale synced to mid-chunk phrasing in Video 1.
+
+9.5–10.6s: Motion snaps toward real-time — river surface rushes up to fill the frame. Eyes may close. Rain and speed increase.
+
+~10.6s: Water impact on the main accent in Video 1 — she slams into the flood, massive splash, plunges deep. Hard sync to the boom in Video 1.
+
+10.6–11.5s: Underwater slow-motion extreme close-up — eyes closed, bubbles, hair floating, muffled world. Mouth barely open, no lyric words. Crush the mix feel to submerged silence except distant synth entering in Video 1.
+
+11.5–11.9s: Three-note synth lead figure in Video 1 — lip-sync tiny mouth shapes to the motif only. Eyes open on the last note of the figure.
+
+~11.8s: Big downbeat 1 in Video 1 — body jolt in the water, shock ring, debris swirl.
+
+~12.0–12.7s: Beat 2 — single ad-lib vocal syllable in Video 1, soft falsetto, lip-sync exactly. Underwater or just below surface. End on that syllable — do not continue into instrumental tail.
+
+【Audio】Continuous sync to @[Video 1](video_1). Prioritize scream, breath, splash, then synth and ad-lib hits.
+
+【References】@Image 1 likeness. Second uploaded image is mood only — do not @ it.

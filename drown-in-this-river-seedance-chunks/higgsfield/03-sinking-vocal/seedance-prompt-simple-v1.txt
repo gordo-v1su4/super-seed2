@@ -1,0 +1,28 @@
+# version: v1 (archived — subtitle burn-in on body words; do not use)
+# supersedes: initial simple prompt
+# use instead: seedance-prompt-simple-v2.txt
+
+@[Image 1](image_1) — match her likeness and wet look consistently. @[Video 1](video_1) is the master audio; sync all lip-sync and timing to it exactly.
+
+【Style】Cinematic music video, 2.39:1 anamorphic, dark storm forest, heavy rain, crushed teal-black grade. Off-camera lightning only until the final hit — bolt may strike the tree on the last line, not the frame edge.
+【Duration】~13.9s track from 0.0s; 15s container. End on the last vocal syllable (~13.8s). No post-roll. Do not show the full launch — that is the next episode.
+
+【Constraints】No on-screen text, no subtitles, no captions. Smooth slow camera — one continuous feel, no hard montage. No city wide, no underwater. No limb warping.
+
+0.0–4.4s: She keeps walking uphill through rain, lip-sync to the opening vocal in Video 1. She notices a fallen trunk or thick branch spanning a gap — a possible way across. Camera at eye level or slightly below, following from behind or profile; do not reveal height yet.
+
+4.4–5.2s: Instrumental — she steps onto the branch, testing it, slow and deliberate.
+
+5.2–8.4s: Lip-sync second vocal phrase in Video 1 while walking outward on the branch — slow follow shot, restrained body, camera level or slightly up; forest below stays hidden.
+
+8.4–9.3s: Vocal riff on DOWN in Video 1 — peak animation for this chunk: shoulders drop then release, head snaps back, chest opens, dress and hair whip in rain, big melismatic mouth locked to the riff syllables, one arm out for balance on the branch — expressive and fed-up, not subtle. Then she collects as the phrase ends.
+
+9.3–10.0s: Brief stillness on the branch, rain, breath.
+
+10.0–12.1s: Lip-sync third phrase start in Video 1 — she is far out on the branch now, subdued, dangerous quiet.
+
+12.1–13.8s: Final words in Video 1 — lip-sync exactly. Camera begins a slow orbit around her; reveal for the first time how high and exposed she is, abyss below, storm above, she is out here by choice. Lightning strikes the tree or branch; wood cracks; branch breaks; she begins to lift off as the clip ends on the last syllable — do not follow her into the air.
+
+【Audio】Continuous sync to @[Video 1](video_1).
+
+【References】@Image 1 likeness. Second uploaded image is mood only — do not @ it.

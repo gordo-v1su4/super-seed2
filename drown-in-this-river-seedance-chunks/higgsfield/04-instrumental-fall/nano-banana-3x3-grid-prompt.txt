@@ -1,0 +1,18 @@
+Attach Image 1 = Nia character sheet before generating.
+Silent mood upload for chunk 04 — do not @ in Seedance prompt.
+
+---
+
+Cinematic photorealistic music-video 3x3 storyboard grid, single square image, 9 equal panels with thin black gutters, 2.39:1 framing inside each cell. Match Image 1 for Nia identity only — face, gold hoops, yellow sleeveless dress, wet dark hair, barefoot; do NOT copy Image 1 background. Global: night storm, torrential rain, crushed teal-black grade, warm yellow dress accent.
+
+Panel 1 top-left: wide high-angle — tiny yellow dress figure falling toward MASSIVE FLOOD RIVER through DESTROYED CITY, submerged rooftops, debris in current, dark churning water NOT blue calm lake.
+Panel 2 top-center: wide — turbulent flood river, whitecaps, building fragments and timber dragged downstream, storm rain.
+Panel 3 top-right: medium — woman in yellow dress mid-fall, arms out, churning flood and ruined walls far below.
+Panel 4 middle-left: environment — drowned street, broken walls half underwater, fast muddy teal current, wreckage train.
+Panel 5 center: god-ray underwater wide — sinking yellow dress, submerged building silhouettes, bubbles, murky teal NOT pretty blue pool.
+Panel 6 middle-right: close face screaming in rain during fall, flood chaos blurred below.
+Panel 7 bottom-left: impact moment — colossal splash in churning flood, debris spray, dark water.
+Panel 8 bottom-center: wide flood panorama — city swallowed by river, storm, debris fields, violent current.
+Panel 9 bottom-right: high angle fall POV — raging flood river filling frame, urban wreckage, no calm turquoise water.
+
+No calm blue pond, no peaceful forest lake, no still water, no illustration, no text overlays.
