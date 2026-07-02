@@ -37,4 +37,6 @@ Skill: `.cursor/skills/prepare-song-for-seedance/SKILL.md`
 | 03 | `higgsfield/03-sinking-vocal/` |
 | 04 | `higgsfield/04-instrumental-fall/` |
 
+**Environment sheet (chunks 03–04 geography):** `higgsfield/environment-sheet/` — orthographic map + multi-angle layout for Image 2.
+
 Legacy rapids test: `prompts/rapids-dance-13s-oner-beat-sync.txt`. Old combined storyboard: `02-03-woods-run-breath_storyboard.md` (pointer only).

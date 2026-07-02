@@ -1,3 +1,6 @@
+# version: v6 (current — deep basin + rim notch + log motivation)
+# supersedes: v5
+
 @[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Video 1](video_1) is the master audio; sync all lip-sync and timing to it exactly.
 
 【Place】One location only. Storm forest on a bluff rim above a wide deep flood basin — a drowned city in a deep main channel, not a shallow creek or skinny gorge puddle. At a rocky notch the rim trail ends; a storm-felled mega-tree spans from the cliff lip to a giant root tree on a rock spur — the only crossing. She steps on because the path stops and city lights glint below; each step walks her farther out over the deepest part of the channel. The notch looks narrow at the rim but the drop below is huge — submerged buildings, dark churning water thirty feet deep or more. Not random twig in flat woods; not a hard cut to a new set.
@@ -24,4 +27,4 @@
 
 【Audio】Continuous sync to @[Video 1](video_1).
 
-【References】@Image 1 likeness. Second uploaded image mood only — do not @ it. See GEOGRAPHY.md and higgsfield/environment-sheet/. Current version: seedance-prompt-simple-v6.txt
+【References】@Image 1 likeness. Second uploaded image mood only — do not @ it. See GEOGRAPHY.md and higgsfield/environment-sheet/.

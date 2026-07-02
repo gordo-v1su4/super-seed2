@@ -22,18 +22,16 @@ Each new iteration → new `-vN.txt` file. Old versions stay frozen. README alwa
 
 | Label | Current file | Notes |
 |-------|--------------|-------|
-| Option 1 | `seedance-prompt-simple-v3.txt` | Trunk break = fall with gravity |
-| Option 2 | `seedance-prompt-v3.txt` | Same fix, more detail |
-| Alt A Michael Bay | `seedance-prompt-alt-A-michael-bay-v4.txt` | Flooded town rapids, tree-strike, orbit+pull-out |
+| Option 1 | `seedance-prompt-simple-v5.txt` | Rim + log-bridge geography |
+| Option 2 | `seedance-prompt-v3.txt` | Older — update if needed |
+| Alt A Michael Bay | `seedance-prompt-alt-A-michael-bay-v8.txt` | Same place logic + Bay finale |
 
-See `ALT-A-NOTES.md`. Archived: v3, v2, v1
+See `GEOGRAPHY.md` and `ALT-A-NOTES.md`.
 
-Convenience copies (same as v3): `seedance-prompt-simple.txt`, `seedance-prompt.txt`, `seedance-prompt-alt-A-michael-bay.txt`
-
-**Format:** `PROMPT-FORMAT.md`
+Convenience copies: `seedance-prompt-simple.txt` (= v5), `seedance-prompt-alt-A-michael-bay.txt` (= v8)
 
 ---
 
-## Story summary (v3)
+## Story summary (current)
 
-Continue dark walk → moonlit clearing → trunk crossing → walk out → final phrase → orbit height reveal → trunk snaps → **she falls with it** (no pop-up launch) → chunk 04 continues the drop.
+Rim forest walk → gorge edge → **log-bridge trunk** (cliff to giant tree) → walk out over hidden flooded town → finale reveal + two-beat snap + fall backward → chunk 04 overlap.

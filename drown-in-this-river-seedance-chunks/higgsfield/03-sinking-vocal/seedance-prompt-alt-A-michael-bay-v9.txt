@@ -1,3 +1,6 @@
+# version: v9 (current — deep basin + rim notch + log motivation)
+# supersedes: v8
+
 @[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Video 1](video_1) is the master audio; sync all lip-sync and timing to it exactly.
 
 【Place】One continuous location — not a cut from forest to a different set. Dark storm forest on a bluff rim above a wide deep flood basin — drowned city in a deep main channel, submerged building heights visible in churn, not a shallow creek. Rim trail ends at a rocky notch; a storm-felled mega-tree spans cliff lip to giant root tree on a rock spur — only crossing, city lights pulling her forward. She walks out over the deepest part of the channel. Narrow at the bridge span; vast and deep below. See mood grid bottom-left — trunk over open abyss above wide basin.
@@ -24,4 +27,4 @@
 
 【Audio】Continuous sync to @[Video 1](video_1).
 
-【References】@Image 1 likeness. Second uploaded image mood only — do not @ it. See GEOGRAPHY.md and higgsfield/environment-sheet/. Current version: seedance-prompt-alt-A-michael-bay-v9.txt
+【References】@Image 1 likeness. Second uploaded image mood only — do not @ it. See GEOGRAPHY.md and higgsfield/environment-sheet/.

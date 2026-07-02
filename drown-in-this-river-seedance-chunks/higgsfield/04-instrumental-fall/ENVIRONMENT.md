@@ -11,11 +11,15 @@ Reference for mood grid and regen notes when water reads wrong.
 
 ## Right
 
-- **Massive flood river** — fast, violent, storm-fed
-- A **city destroyed by the flood** — submerged rooftops, broken walls, drowned streets
+- **Massive deep flood river** — fast, violent, storm-fed; **30ft+ depth** in main channel
+- A **city destroyed by the flood** — **full building heights submerged**, broken walls, drowned streets
 - **Debris dragged in the current** — timber, metal, building fragments, wreckage trains
 - Dark **teal-black / muddy churn**, whitecaps and foam — crushed grade, not pretty blue
-- High-angle fall shots: she drops toward **urban flood devastation**, not nature water
+- High-angle fall shots: she drops toward **deep urban flood devastation** — wide basin, not nature pond or shallow gorge
+
+## Continuity from chunk 03
+
+Fall begins from log-bridge over **wide deep basin** (see `03-sinking-vocal/GEOGRAPHY.md`). Impact must read as entry into **deep** water — room for underwater descent in later chunks.
 
 ## Good reference panels (operator gens)
 

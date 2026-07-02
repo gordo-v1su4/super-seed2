@@ -1,0 +1,25 @@
+Optional: attach Image 1 (Nia sheet) only if you want tiny yellow-dress silhouettes for scale in story panels. Pure environment works without any ref.
+
+Generate as ONE square image — 4 rows × 3 columns, thin black gutters, small white label under each cell. Cinematic photoreal environment concept sheet, crushed teal-black storm palette, film production design quality.
+
+ROW 1 — DIAGRAMS (readable, not muddy):
+Cell A MAP TOP-DOWN: Orthographic map — forest rim band, rocky notch at trail end, log-bridge line from cliff to giant tree, WIDE deep flooded city basin in valley (not skinny creek), arrow for river flow through streets.
+Cell B CROSS-SECTION: Side elevation — trees on cliff top, long sheer drop, trunk bridge at rim notch, FULL submerged building heights in deep flood below — water depth 30ft+ not shallow pool.
+Cell C STORY FLOW: Simple infographic strip — woods → clearing/cliff → city reveal → log-bridge → tree break → fall → surface → underwater → calm.
+
+ROW 2 — CHUNK 03 SETUP (photoreal 2.39:1 in each cell):
+Cell D BEAT 1 WOODS: Dark storm forest on cliff rim path, rain, no city visible.
+Cell E BEAT 2 CLEARING: Moonlit clearing at rim notch — trail ends, trees thin, city lights far below, wide deep basin implied.
+Cell F BEAT 3 CITY REVEAL: Over-shoulder from rim — destroyed flooded city in WIDE DEEP basin, huge river through streets, submerged building heights, lights, rapids, debris.
+
+ROW 3 — BRIDGE & FALL:
+Cell G BEAT 4 LOG-BRIDGE: KEY WIDE — fallen trunk spans rocky rim notch cliff to giant root tree, storm rain, WIDE DEEP drowned city basin far below — not shallow creek slot.
+Cell H BEAT 5 TREE BREAK: Lightning flash on trunk/tree, wood splintering, brief flash not frozen bolt wallpaper.
+Cell I BEAT 6 FALL: Falling backward toward churning urban flood, splinters, high angle.
+
+ROW 4 — RIVER (CHUNK 04+):
+Cell J ABOVE WATER: Surface rapids through wreckage, rain, debris, deep directional current.
+Cell K UNDERWATER: Murky teal, building silhouettes, bubbles, god rays — not blue pool.
+Cell L CALM: Storm easing, softer surface, still flooded town, less violent water.
+
+No lyric text. No calm forest lake. No shallow slot canyon creek. Same location all panels. Save as environment-sheet-12panel.png for Seedance Image 2 (silent).

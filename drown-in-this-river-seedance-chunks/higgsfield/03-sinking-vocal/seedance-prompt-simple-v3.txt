@@ -1,4 +1,4 @@
-# version: v3 (current — trunk break = fall with gravity, no upward launch)
+# version: v3 (archived — forest gorge reveal, single snap fall)
 # supersedes: v2
 
 @[Image 1](image_1) — match her likeness and wet look consistently. @[Video 1](video_1) is the master audio; sync all lip-sync and timing to it exactly.

@@ -1,35 +1,26 @@
-# Alt A — Michael Bay chunk 03 (v4 environment + camera notes)
+# Alt A — Michael Bay chunk 03 (v7)
 
-Alt A differs from Option 1 on purpose — overlap edit OK.
+## Reference exterior (Image 2 / operator stills)
 
-## Crossing (whole chunk)
+- Flooded **town** in **directional rapids** — house roofs, walls, debris in current
+- Woman on **trunk-bridge** over gorge; dark **tree branches frame top**
+- High-angle or over-shoulder reveal before fall
+- Backward fall: face up, dress billowing, splinters in air (not launch up)
 
-- **Fallen trunk spans the gap** — reads as a **bridge / way across**, not a random forest branch
-- Thick enough to walk; she tests it, walks out deliberately
+## Finale beats (12–14s)
 
-## Reveal below (finale pull-out)
+1. Final phrase lip-sync → camera **zooms in** on her
+2. Reveal flooded town below (reference exterior)
+3. **Brief** lightning strike — flash only, bolt gone
+4. **Beat 1:** wood bursts — trunk might **hold** one instant
+5. **Reaction** — freak out, reach for another branch
+6. **Beat 2:** second snap — before she grabs — gives way
+7. **Slow-mo** — loses balance **backward and down**
 
-- **Flooded town river** — houses partially submerged in moving water
-- **Directional rapids** — current flows one way; debris moves with it (timber, walls, wreckage)
-- **Deep enough** to feel survivable — not a shallow rock pool
-- **Not too chaotic** — readable water, not all white foam (underwater matters later)
+## Lightning
 
-## Finale camera (12–14s, one fluid move)
+No frozen bolt wallpaper. Use mood refs **without** persistent lightning (prefer over-shoulder town flood panels).
 
-1. **Super low, close** — trunk height, waist/torso framing — **not** ECU into eyes
-2. She **squats/crouches**, then **stands**
-3. Camera **orbits and pulls out simultaneously**
-4. **Lightning hits tree/trunk** — realistic splinter/split, not explosion
-5. Quick **boom** on break → camera **catches up in slow motion**
-6. Falls **with** wood — **face up**, **parallel to ground**, dress **flapping**
-7. No upward launch · end on last syllable
-
-## Option 1 vs Alt A
-
-| | Option 1 | Alt A v4 |
-|---|----------|----------|
-| Lightning | Off-camera / none | Strike on tree/trunk |
-| Reveal | Gorge + storm | **Flooded town rapids** |
-| Camera | Slow orbit | Low close → orbit + pull-out → slow-mo catch |
-
-Prompt: `seedance-prompt-alt-A-michael-bay-v4.txt`
+Prompts:
+- **Alt A:** `seedance-prompt-alt-A-michael-bay-v7.txt`
+- **Option 1:** `seedance-prompt-simple-v4.txt` (same exterior + two-beat snap, less Bay)

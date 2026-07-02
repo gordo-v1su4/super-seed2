@@ -1,0 +1,30 @@
+# version: v8 (current — geography lock: forest rim + trunk bridge over flooded town)
+# supersedes: v7
+
+@[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Video 1](video_1) is the master audio; sync all lip-sync and timing to it exactly.
+
+【Place】One continuous location — not a cut from forest to a different set. Dark storm forest grows along a cliff rim above a gorge. The gorge holds the flooded town in rapids below. A large tree on the rim fell in the storm — its trunk spans the gorge like a log bridge from the cliff edge to a giant standing root tree on the far side (see mood grid bottom-left: trunk between cliff and big tree). That is the only crossing she sees. She walks out on that trunk over the town below.
+
+【Style】Cinematic music video, 2.39:1 anamorphic, crushed teal-black grade, heavy rain. Michael Bay finale — zoom in, brief strike, two-beat snap, slow-mo fall backward. Dark tree limbs frame upper frame. Background animated — rain, rapids, debris — no frozen storm plate.
+
+【Duration】~13.9s track · 15s container · end on last vocal syllable (~13.8s). Fall continues in chunk 04 — overlap OK.
+
+【Constraints】No on-screen text, no subtitles, no captions, no lyric words burned in. Do not quote sung words from Video 1. One fluid finale. No underwater. No limb warping. No upward launch. No ECU into eyes. Lightning: one brief strike at break — flash and gone; no frozen bolt in background.
+
+0–4s: Continues along the forest rim path — trees on one side, lip-sync opening vocal in Video 1. Moon clearing on the gorge edge; she slows where a storm-felled trunk spans the chasm over the hidden flood below. Same cliff-bank location throughout — not a new set. Low camera; flooded town not visible yet.
+
+4–5s: Instrumental — steps onto the trunk log-bridge, testing weight.
+
+5–8s: Lip-sync second vocal while walking outward over the gorge — trunk above town/flood still hidden below.
+
+8–9s: Melismatic riff closing second phrase — animated peak on the trunk.
+
+9–10s: Stillness on the log-bridge. Rain. Breath.
+
+10–12s: Lip-sync third phrase — far out over the gap, exposed.
+
+12–14s: Final phrase in Video 1 — lip-sync through last syllables (~13.4–13.8s). Super low close on trunk; crouch then stand; orbit then push in / zoom tighter — not nose-in-lens. Pull-out reveals she is over the flooded town in the valley — house roofs in rapids, debris, current one direction — same place she has been walking above the whole time. Brief lightning strikes the rim tree or trunk she stands on — flash, wood splits from the hit, bolt gone. Beat one: trunk bursts — might hold one instant. She freaks out, reaches for another branch on the root tree or trunk. Beat two: second snap before she grabs — slow motion fall backward and down into the flooded valley, face up, dress billowing. No launch up. End on last syllable.
+
+【Audio】Continuous sync to @[Video 1](video_1).
+
+【References】@Image 1 likeness. Second uploaded image mood only — do not @ it. See GEOGRAPHY.md and higgsfield/environment-sheet/.

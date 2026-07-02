@@ -1,0 +1,102 @@
+{
+  "goal": "environment_sheet_multi_angle",
+  "scene": "4x3 environment layout sheet — orthographic map, cross-section, and story angles for bluff rim notch, log-bridge over WIDE DEEP flood basin, drowned city river (chunks 03-04). No character identity lock required.",
+  "resolution": "2K",
+  "aspect_ratio": "1:1",
+  "mode": "thinking",
+  "reference_images": [],
+  "global_style": {
+    "look": "cinematic photorealistic environment concept sheet, film production design",
+    "camera": "mixed — diagram panels orthographic/isometric; story panels ARRI Alexa 65 anamorphic 2.39:1 inside cells",
+    "color_grade": {
+      "palette": ["crushed teal-black", "navy storm shadow", "muddy flood brown-teal", "warm window lights in drowned city", "optional tiny yellow dress silhouette only for scale"]
+    },
+    "weather": "night storm, heavy rain in story panels; diagrams clean readable labels"
+  },
+  "grid": {
+    "layout": "4 rows x 3 columns",
+    "gutter": "thin black lines with small white labels under each cell",
+    "panel_aspect_story_rows": "2.39:1",
+    "panel_aspect_diagram_row": "16:9 or square readable"
+  },
+  "panels": [
+    {
+      "cell": "1 row1-col1",
+      "label": "MAP TOP-DOWN",
+      "description": "Orthographic top-down map diagram: dark forest band on upper cliff rim; rocky NOTCH where trail ends; fallen trunk line bridging notch from cliff to giant tree; WIDE deep flooded city basin in valley below (not skinny creek slot) with arrow showing river flow through streets; minimal readable labels MAP STYLE not satellite photo"
+    },
+    {
+      "cell": "2 row1-col2",
+      "label": "CROSS-SECTION",
+      "description": "Side elevation cross-section: cliff rim with trees on top, long sheer drop, log-bridge trunk at rocky notch spanning to far root tree, FULL submerged building heights and facades in deep floodwater at bottom — water depth 30 feet or more, wide basin not shallow pool"
+    },
+    {
+      "cell": "3 row1-col3",
+      "label": "STORY FLOW",
+      "description": "Simple horizontal storyboard strip diagram inside cell: icons or tiny panels — woods → clearing/cliff → city reveal → log-bridge → tree break → fall → above water → underwater → calm; clean infographic style matching teal palette"
+    },
+    {
+      "cell": "4 row2-col1",
+      "label": "BEAT 1 WOODS",
+      "description": "Photoreal cinematic: dark storm forest on cliff rim path, heavy rain, deep teal shadows, no city visible, oppressive trees, tiny optional yellow dress silhouette walking away from camera"
+    },
+    {
+      "cell": "5 row2-col2",
+      "label": "BEAT 2 CLEARING",
+      "description": "Photoreal: trees thin into moonlit clearing at gorge edge, she stops at cliff lip, rain, sense of height but city not fully visible yet, rim location same as panel 4"
+    },
+    {
+      "cell": "6 row2-col3",
+      "label": "BEAT 3 CITY REVEAL",
+      "description": "Photoreal over-shoulder from rim: destroyed flooded city in valley below, huge river through drowned streets, scattered lights in windows, directional rapids and debris, storm rain, she small in foreground silhouette"
+    },
+    {
+      "cell": "7 row3-col1",
+      "label": "BEAT 4 LOG-BRIDGE",
+      "description": "Photoreal wide hero geography: massive fallen trunk spans rocky rim NOTCH from cliff to giant standing root tree, storm rain, WIDE DEEP drowned city basin far below with submerged buildings — KEY PANEL — not shallow creek gorge"
+    },
+    {
+      "cell": "8 row3-col2",
+      "label": "BEAT 5 TREE BREAK",
+      "description": "Photoreal: lightning strike on rim tree or trunk section, wood splintering, trunk failing under foot point, brief flash only, rain motion, no frozen bolt held across whole frame"
+    },
+    {
+      "cell": "9 row3-col3",
+      "label": "BEAT 6 FALL",
+      "description": "Photoreal: woman in yellow dress falling backward toward churning flood river above destroyed city, splinters in air, high angle, dark teal churn not blue pool"
+    },
+    {
+      "cell": "10 row4-col1",
+      "label": "ABOVE WATER",
+      "description": "Photoreal wide: surface rapids through urban wreckage, whitecaps, debris trains, storm rain, performance space energy, directional current, deep readable water"
+    },
+    {
+      "cell": "11 row4-col2",
+      "label": "UNDERWATER",
+      "description": "Photoreal underwater: murky crushed teal, submerged building silhouettes, bubbles, light rays from surface, sinking dress fabric, not pretty turquoise swimming pool"
+    },
+    {
+      "cell": "12 row4-col3",
+      "label": "CALM",
+      "description": "Photoreal: storm easing, softer rain, flood river still high through ruined town but less violent surface, reflective dark water, hopeful dim light break in clouds"
+    }
+  ],
+  "constraints": {
+    "must_include": [
+      "12 labeled panels in 4x3 grid",
+      "same geographic location across all story panels",
+      "orthographic map and cross-section in row 1",
+      "log-bridge spanning gorge",
+      "flooded destroyed city river not calm forest lake"
+    ],
+    "must_avoid": [
+      "lyric subtitles or text quotes",
+      "character face close-ups dominating sheet",
+      "calm turquoise pond",
+      "flat forest with no gorge",
+      "narrow shallow slot canyon with creek at bottom",
+      "persistent lightning bolt wallpaper in every panel",
+      "mudslide instead of tree break in panel 8"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+# version: v5 (current — geography lock: forest rim + trunk bridge over flooded town)
+# supersedes: v4
+
+@[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Video 1](video_1) is the master audio; sync all lip-sync and timing to it exactly.
+
+【Place】One location only. Storm forest on a cliff rim above a gorge. The gorge holds the flooded town — rapids through drowned streets below. A storm-felled tree on the rim spans the gap as a log bridge; she walks out on it over the town. Not random branch in flat woods; not a hard cut to a new set.
+
+【Style】Cinematic music video, 2.39:1 anamorphic, dark storm, heavy rain, crushed teal-black grade. Flooded town visible on finale reveal. Background alive — rain, moving water.
+
+【Duration】~13.9s track · 15s container · end on last vocal syllable (~13.8s). Fall continues in chunk 04.
+
+【Constraints】No on-screen text, no subtitles, no captions, no lyric words burned in. Do not quote sung words from Video 1. Smooth continuous camera. No underwater. No limb warping. No upward launch. Lightning: one brief strike at break — flash and gone; no frozen bolt.
+
+0–4s: Walks the forest rim path beside the gorge edge, lip-sync opening vocal in Video 1. Sees fallen trunk spanning the chasm — only crossing. Town flood below stays hidden.
+
+4–5s: Instrumental — onto log-bridge, testing weight.
+
+5–8s: Lip-sync second vocal walking outward over the gap — drop still hidden.
+
+8–9s: Melismatic riff closing second phrase — peak on trunk.
+
+9–10s: Stillness. Rain. Breath.
+
+10–12s: Lip-sync third phrase — far out, exposed.
+
+12–14s: Final phrase — lip-sync through last syllables. Orbit then push in / zoom closer. Reveal: flooded town in valley below — same gorge she has been above. Brief lightning on rim tree or trunk — wood bursts. Beat one: might hold; she reacts, reaches for branch. Beat two: snaps before grab — slow motion fall backward and down into the valley. End on last syllable.
+
+【Audio】Continuous sync to @[Video 1](video_1).
+
+【References】@Image 1 likeness. Second uploaded image mood only — do not @ it. See GEOGRAPHY.md and higgsfield/environment-sheet/.
