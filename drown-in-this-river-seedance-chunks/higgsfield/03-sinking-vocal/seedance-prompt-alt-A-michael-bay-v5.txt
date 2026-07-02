@@ -1,3 +1,6 @@
+# version: v5 (current — bullet-time lightning on final phrase, scramble back, fall backward)
+# supersedes: v4 (passive fall; lightning before vocal finish)
+
 @[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Video 1](video_1) is the master audio; sync all lip-sync and timing to it exactly.
 
 【Style】Cinematic music video, 2.39:1 anamorphic, dark storm, heavy rain, crushed teal-black grade. Michael Bay finale — super low but close, orbit and pull-out together, bullet-time on the tree strike, slow-mo catch on the drop. Below: flooded town river — houses drowned in directional rapids (strong current, not tsunami chaos), debris drifting with the flow. Crossing reads as a deliberate bridge: thick fallen trunk spanning the gap, a way across, not a random forest twig.

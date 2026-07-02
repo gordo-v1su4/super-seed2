@@ -1,4 +1,4 @@
-# version: v2 (current — subtitle-safe, moon clearing, no lightning bolts)
+# version: v2 (archived — subtitle-safe; trunk break caused upward launch)
 # supersedes: seedance-prompt-v1.txt
 
 @[Image 1](image_1) — match her likeness and wet look consistently throughout. @[Video 1](video_1) is the master audio, 13.9 seconds — sync all lip-sync and performance to it exactly. End at ~13.8s on the last vocal syllable; no tail. Full airborne launch is next episode — this clip stops as the trunk gives way.

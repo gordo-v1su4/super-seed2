@@ -5,7 +5,7 @@
 
 ## Story (this episode)
 
-Continue dark woods walk → moonlit clearing (ambiguous) → notices trunk bridge → walk out slowly → height hidden until orbit on final phrase → trunk breaks → launch begins (full flight = chunk 04+). No visible lightning bolts.
+Continue dark woods walk → moonlit clearing (ambiguous) → notices trunk bridge → walk out slowly → height hidden until orbit on final phrase → trunk snaps → **falls with breaking wood** (no upward launch) → chunk 04 continues drop. No visible lightning bolts.
 
 ## Vocal map
 
@@ -17,7 +17,7 @@ Continue dark woods walk → moonlit clearing (ambiguous) → notices trunk brid
 | **8.44–9.32** | Second phrase riff | Animated peak — slump then burst, melismatic lip-sync |
 | **9.32–10.00** | instrumental | Pause on trunk |
 | **10.00–12.14** | Third phrase opens | Far out on trunk, restrained |
-| **12.14–13.82** | Final phrase | Orbit reveal height · trunk breaks · lift starts · end on last syllable |
+| **12.14–13.82** | Final phrase | Orbit reveal height · trunk snaps · **downward fall with wood** · end on last syllable |
 
 ## Final phrase word times (for editor only — do not paste into prompts)
 
@@ -37,4 +37,4 @@ See `PROMPT-FORMAT.md` for subtitle-safe wording.
 
 ## Next chunk (not this one)
 
-Full launch / fall / next lyric section — after trunk fully gives way.
+Full fall / flood / next section — chunk 04 picks up from the drop (overlap OK).

@@ -1,3 +1,6 @@
+# version: v3 (current — trunk break = fall with gravity, no upward launch)
+# supersedes: v2
+
 @[Image 1](image_1) — match her likeness and wet look consistently throughout. @[Video 1](video_1) is the master audio, 13.9 seconds — sync all lip-sync and performance to it exactly. End at ~13.8s on the last vocal syllable; no tail. Full fall continues in chunk 04 — this clip stops as she drops with the trunk.
 
 【Style】2.39:1 anamorphic, dark storm woods, heavy rain, crushed teal grade, slow deliberate pacing. Moonlit clearing ahead — soft silver pool, not a lightning strike. Off-camera storm flicker at most; never render a bolt in frame.

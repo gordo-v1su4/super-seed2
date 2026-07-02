@@ -1,12 +1,12 @@
-# version: v2 (archived — subtitle-safe; trunk break caused upward launch)
-# supersedes: seedance-prompt-simple-v1.txt
+# version: v3 (current — trunk break = fall with gravity, no upward launch)
+# supersedes: v2
 
 @[Image 1](image_1) — match her likeness and wet look consistently. @[Video 1](video_1) is the master audio; sync all lip-sync and timing to it exactly.
 
 【Style】Cinematic music video, 2.39:1 anamorphic, dark storm forest, heavy rain, crushed teal-black grade. Moon or broken cloud may open a soft brighter pool in the woods — not lightning. If any storm flash appears, off-camera only; never show a bolt in frame.
-【Duration】~13.9s track from 0.0s; 15s container. End on the last vocal syllable (~13.8s). No post-roll. Do not show the full launch — that is the next episode.
+【Duration】~13.9s track from 0.0s; 15s container. End on the last vocal syllable (~13.8s). No post-roll. Fall continues in chunk 04 — this clip ends as she drops, not mid-air.
 
-【Constraints】No on-screen text, no subtitles, no captions, no lyrics burned into frame. Do not spell or quote any sung words from Video 1. Smooth slow camera — one continuous feel, no hard montage. No city wide, no underwater. No limb warping.
+【Constraints】No on-screen text, no subtitles, no captions, no lyrics burned into frame. Do not spell or quote any sung words from Video 1. Smooth slow camera — one continuous feel, no hard montage. No city wide, no underwater. No limb warping. When the trunk breaks: no upward launch, no pop into the air, no float then drop — she falls with the breaking wood under gravity.
 
 0.0–4.4s: She continues walking through dark rain-soaked woods — same weary pace as the prior chunk, mostly silhouette. Lip-sync to the opening vocal in Video 1. Trees thin into a small clearing; moonlight or a cloud break makes the space ahead slightly brighter and ambiguous — reads as just walking until she slows and glances at a fallen trunk spanning the gap, a possible way across. Slow follow from behind or profile; do not reveal height or what lies below.
 
@@ -20,7 +20,7 @@
 
 10.0–12.1s: Lip-sync third phrase opening in Video 1 — far out on the trunk now, subdued, dangerous quiet.
 
-12.1–13.8s: Final phrase in Video 1 — lip-sync exactly. Camera begins a slow orbit; first reveal of how high and exposed she is, abyss below, storm above, she chose this path. Wood splinters; trunk gives way; she begins to lift off as the clip ends on the last syllable — do not follow her into the air. No visible lightning bolt.
+12.1–13.8s: Final phrase in Video 1 — lip-sync exactly. Camera begins a slow orbit; first reveal of how high and exposed she is, abyss below, storm above, she chose this path. Wood splinters; trunk snaps; she falls with the breaking wood — immediate downward drop, natural gravity, body pitching into the fall. End on the last syllable as descent begins. No visible lightning bolt.
 
 【Audio】Continuous sync to @[Video 1](video_1).
 

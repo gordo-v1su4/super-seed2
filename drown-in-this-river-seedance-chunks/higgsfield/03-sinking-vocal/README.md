@@ -18,20 +18,22 @@ Each new iteration → new `-vN.txt` file. Old versions stay frozen. README alwa
 
 ---
 
-## Prompt options (current = v2)
+## Prompt options (current = v3)
 
-| Label | Current file | Archived |
-|-------|--------------|----------|
-| Option 1 | `seedance-prompt-simple-v2.txt` | v1 (subtitle burn-in) |
-| Option 2 | `seedance-prompt-v2.txt` | v1 (git original) |
-| Alt A Michael Bay | `seedance-prompt-alt-A-michael-bay-v2.txt` | v1 |
+| Label | Current file | Notes |
+|-------|--------------|-------|
+| Option 1 | `seedance-prompt-simple-v3.txt` | Trunk break = fall with gravity |
+| Option 2 | `seedance-prompt-v3.txt` | Same fix, more detail |
+| Alt A Michael Bay | `seedance-prompt-alt-A-michael-bay-v4.txt` | Flooded town rapids, tree-strike, orbit+pull-out |
 
-Convenience copies (same as v2): `seedance-prompt-simple.txt`, `seedance-prompt.txt`, `seedance-prompt-alt-A-michael-bay.txt`
+See `ALT-A-NOTES.md`. Archived: v3, v2, v1
+
+Convenience copies (same as v3): `seedance-prompt-simple.txt`, `seedance-prompt.txt`, `seedance-prompt-alt-A-michael-bay.txt`
 
 **Format:** `PROMPT-FORMAT.md`
 
 ---
 
-## Story summary (v2)
+## Story summary (v3)
 
-Continue dark walk → moonlit clearing → trunk crossing → walk out → final phrase → orbit height reveal → trunk breaks → launch starts (chunk 04).
+Continue dark walk → moonlit clearing → trunk crossing → walk out → final phrase → orbit height reveal → trunk snaps → **she falls with it** (no pop-up launch) → chunk 04 continues the drop.

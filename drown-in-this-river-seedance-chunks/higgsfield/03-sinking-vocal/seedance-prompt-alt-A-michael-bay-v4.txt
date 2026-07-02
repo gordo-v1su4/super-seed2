@@ -1,0 +1,27 @@
+# version: v4 (archived — lightning before scramble; passive fall with wood)
+# supersedes: prior v4 draft (ECU eyes, no lightning, forest-only gorge)
+
+@[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Video 1](video_1) is the master audio; sync all lip-sync and timing to it exactly.
+
+【Style】Cinematic music video, 2.39:1 anamorphic, dark storm, heavy rain, crushed teal-black grade. Michael Bay–influenced finale — super low but close, orbit and pull-out together, slow-mo catch after a quick break. Below: a **flooded town river** — houses drowned in moving water, directional **rapids** (strong current, not tsunami chaos), debris drifting with the flow. The crossing must read as a **deliberate bridge**: a thick fallen trunk spanning the gap — a way across — not a random twig on a forest trail.
+【Duration】~13.9s track · 15s container · end on last vocal syllable (~13.8s). Fall continues in chunk 04 — overlap OK.
+
+【Constraints】No on-screen text, no subtitles, no captions, no lyric words burned in. Do not quote sung words from Video 1. One continuous fluid camera move on the finale — no sub-second hard cuts. No underwater in this clip. No limb warping. No upward launch or pop into the air. **No extreme close-up crashing into her eyes** — keep low angle close at waist, torso, or three-quarter length. Lightning may strike the **tree or trunk** only — realistic splinter, not a fireball explosion.
+
+0–4s: Continues walking dark rain woods, lip-sync opening vocal in Video 1. Moon-bright clearing — still reads as walking until she slows and sees a **fallen trunk bridging the gap**, a possible crossing over the drop. Camera low behind or profile; flooded town and rapids **below stay mostly hidden**.
+
+4–5s: Instrumental — steps onto the trunk-bridge, testing weight, slow and deliberate. It must look like she chose a **path across**, not a stray branch.
+
+5–8s: Lip-sync second vocal in Video 1 while walking outward on the trunk-bridge — low trailing follow, restrained; drop and town flood still out of frame or only hinted.
+
+8–9s: Melismatic riff closing second phrase in Video 1 — animated peak on the trunk: upper body opens, head back, dress in wind, melismatic lip-sync.
+
+9–10s: Stillness on the trunk-bridge. Rain. Breath.
+
+10–12s: Lip-sync third phrase opening in Video 1 — far out on the crossing now, subdued, exposed.
+
+12–14s: Final phrase in Video 1 — one continuous Bay-style move. Start **super low, close** — camera near trunk height, close on her body, **not** nose-in-lens. She is **squatting or crouched** on the trunk-bridge, hand on wood, lip-sync locked to Video 1. As she **stands**, camera **orbits around her** and **pulls out at the same time** — combined arc and dolly back. First full reveal below: **rapids through a flooded town** — partial house roofs and walls in churning water, **current flowing one direction**, debris (timber, metal, household wreckage) moving with the river — **deep and fast but readable**, not so violent the frame is only white foam; deep enough she might survive the drop. **Lightning strikes the tree or trunk** — realistic hit, bark splits, wood fails, **not** a cartoon detonation. Quick **boom** on the snap; camera **catches up in slow motion**. Trunk gives way; she falls **with** the breaking wood — **face up**, body **parallel to the ground**, yellow dress **flapping** in slow-mo as descent begins. No launch upward. End on the last syllable — full slow fall may continue in chunk 04.
+
+【Audio】Continuous sync to @[Video 1](video_1).
+
+【References】@Image 1 likeness. Second uploaded image is mood only — do not @ it. Prefer mood panels with **trunk bridge + flooded town rapids**, not calm blue pool or random forest branch.
