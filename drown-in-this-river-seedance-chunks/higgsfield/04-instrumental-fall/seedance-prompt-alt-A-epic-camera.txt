@@ -1,0 +1,23 @@
+@[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Image 2](image_2) — same environment sheet: plates + color legend. Colors stay same entire clip. @[Video 1](video_1) is the master audio; sync scream, breath, fall, impact exactly.
+
+【Story】Already falling at 0.0s — **no tree break in this clip** (that was chunk 03). Continuous slow-mo fall: spiral and hero angles, dress billowing, drowned city below. End colossal splash on final accent — underwater is next chunk.
+
+【Style】Cinematic MV, 2.39:1. Bay fall camera — slow spiral, low hero from below, high plunge reveal over flooded city. Never calm blue.
+
+【Color】Locked to @[Image 2](image_2) legend swatches.
+
+【Duration】15s · end impact ~14.5–14.9s.
+
+【Constraints】No tree snap. No detonation. No subtitles. Overlap OK.
+
+0.0–5.0s: Mid-air slow spiral — scream, breath, backward fall, Image 2 grade.
+
+5.0–11.0s: High-angle reveal — slow-mo fall over ruined city flood, yellow dress vs teal churn, amber debris.
+
+11.0–13.5s: Spiral tightens, surface rush accelerates.
+
+13.5–14.9s: Impact — colossal splash in churning flood. End on boom.
+
+【Audio】Continuous sync to @[Video 1](video_1).
+
+【References】@Image 1 character. @Image 2 environment sheet (locations + color legend on image).

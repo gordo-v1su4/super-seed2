@@ -1,78 +1,87 @@
 # Environment sheet — Drown In This River (chunks 03–04+)
 
-One **place** read as a sequence, not random locations. Use this sheet as **Image 2** (silent — do not `@` in Seedance) or as a director reference when gens feel disconnected.
+**Environment only — no person** in the sheet. Character = **Image 1** (Nia). This sheet = **Image 2** (places + color grade).
 
-## Story flow (environment beats)
+Upload as **Image 2** and **`@Image 2`** in Seedance for geography + color lock.
 
-| Beat | Where | What the viewer understands |
-|------|--------|------------------------------|
-| 1 | **Dark rim woods** | Storm forest on a **bluff rim trail** — basin hidden |
-| 2 | **Clearing at notch** | Trail **ends** at rocky notch; city lights far below |
-| 3 | **Lookout reveal** | Over-shoulder: **wide deep basin** — destroyed city drowned in **deep** main channel |
-| 4 | **Log-bridge** | Storm tree spans **notch only** — trunk runs **out over deepest water** toward root tree |
-| 5 | **Tree break** | Lightning; wood fails; **long drop** into **deep urban flood** |
-| 6 | **Above water** | Rapids through ruins — deep channel, debris (chunk 04) |
-| 7 | **Underwater** | Sink past **full building silhouettes** — murky teal, real depth (chunk 05+) |
-| 8 | **Calm** | Storm eases; still flooded, less violent |
+**Output:** **16:9 landscape** — `environment-sheet-16x9-env-only.png`
 
-**Key fix:** Narrow at the **rim crossing**; **wide and deep** below — not a shallow slot canyon.
+---
 
-**Why on the log:** Rim path dead-ends; trunk is the only crossing; lights pull her forward; she walks out over the deep channel before the height reveal.
-
-**Preferred break:** tree/trunk failure (not mudslide).
-
-## Spatial model
-
-```
-        [ RIM FOREST — bluff trail on cliff top ]
-                      |
-              rocky NOTCH — trail ends
-                      |
-    cliff ======= LOG (spans notch) ======= giant root tree
-                      |
-              ~80–120 ft sheer drop
-                      |
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    [ WIDE DEEP BASIN — drowned city      ]
-    [ submerged buildings, 30ft+ channel  ]
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-```
-
-River flows through the destroyed town in the **wide deep basin** — not a shallow creek at the bottom of a crack.
-
-## Generate the sheet
+## Generate (primary: Nano Banana)
 
 | File | Use |
 |------|-----|
-| `chatgpt-environment-one-sheet-prompt.txt` | **ChatGPT image** — orthographic diagram row + photoreal shot panels |
-| `chatgpt-environment-one-sheet-prompt-compact.txt` | ChatGPT fallback if 12-panel is too dense |
-| `nano-banana-environment-sheet-prompt.json` | Nano Banana / Gemini — **no character ref required** (pure env) |
+| **`nano-banana-environment-sheet-prompt.json`** | Full sheet — diagrams + 8 cinematic plates (regen if bottom row looks like concept art) |
+| **`nano-banana-environment-plate-single.json`** | **Better photoreal** — one live-action 16:9 still per run (E notch, F city, J water, K underwater); stitch or upload best plates |
 | `nano-banana-environment-sheet-prompt.txt` | Plain-text backup |
+| `NANO-BANANA-NOTES.md` | Ref rules + troubleshooting |
+| `COLOR.md` | Hex palette |
 
-Output suggestion: `environment-sheet-12panel.png` → upload as **Image 2** for chunk 03 and 04 gens.
+**Photoreal rule:** Multi-panel sheets often render as **concept art / game env**. For cinema look, run **`nano-banana-environment-plate-single.json`** 4× (E, F, J, K) with your best Higgsfield still as Image 1, then composite or upload plates directly as Image 2.
 
-Optional: attach **Image 1** only if you want a tiny yellow-dress silhouette for scale in story panels — not required for map/diagram row.
+**ChatGPT fallback:** `chatgpt-environment-one-sheet-prompt.txt` — known speckle issues; new chat per regen.
 
-## Panel map (4×3 grid)
+---
 
-| | Col 1 | Col 2 | Col 3 |
-|---|--------|--------|--------|
-| **Row 1** | Top-down **orthographic map** | Side **cross-section** | Story **flow diagram** |
-| **Row 2** | Dark **rim woods** | **Clearing** at cliff edge | **City reveal** over shoulder |
-| **Row 3** | **Log-bridge** wide | **Tree break** | **Fall / splash** |
-| **Row 4** | **Above water** rapids | **Underwater** ruins | **Calmer** surface |
+## Layout A (default) — top diagrams / bottom storyboards
 
-## Chunk links
+```
+┌──────────────────────────────────────────────────────────── 16:9
+│  MAP (wide)      │  CROSS-SECTION  │  STORY FLOW  │ [legend] │  ~45%
+├────────────────────────────────────────────────────────────
+│  D woods │ E notch │ F city │ G give │ H hang │ I fall │ J/K │  ~55%
+│              storyboard row(s) — 16:9 frames in each cell
+└────────────────────────────────────────────────────────────
+```
 
-| Chunk | Folder | Environment focus |
-|-------|--------|-------------------|
-| 03 | `03-sinking-vocal/` | Rows 2–3, `GEOGRAPHY.md`, prompts **v6/v9** |
-| 04 | `04-instrumental-fall/` | Rows 3–4, `ENVIRONMENT.md`, prompts v3+ |
+| Zone | Content |
+|------|---------|
+| **Top ~45%** | Graphic diagrams only — orthographic map, cross-section, story flow, **hex legend** |
+| **Bottom ~55%** | **Empty** photoreal environment plates — same angles, **no actor** |
+
+**Geography:** Bluff rim notch + storm tree at cliff edge. **NOT** log-bridge / megalog bridge.
+
+Prompt: `nano-banana-environment-sheet-prompt.json`
+
+---
+
+## Layout B (alternate)
+
+`chatgpt-environment-one-sheet-layout-B.txt` — ChatGPT only; same hex rules.
+
+---
+
+## Story beats (bottom zone)
+
+| Panel | Beat |
+|-------|------|
+| Rim woods | Bluff trail, basin hidden |
+| Notch | Trail ends, amber lights below |
+| City reveal | Wide deep drowned city |
+| Give-way | Dreamlike rim slide, tree tilts |
+| Suspended | Hang beat — tree tether |
+| Release | Flash + fall begins |
+| Above water | Chunk 04 rapids |
+| Underwater | Chunk 05+ — **turbulent current**, cars/debris dragged, ruined city; **not calm** |
+
+**Color:** locked hex in `COLOR.md`. Yellow = legend swatch only (character = Image 1).
+
+---
 
 ## Gens gone wrong
 
-- Flat forest → unrelated cliff (two sets)
-- **Narrow shallow gorge** — creek at bottom, no underwater room
-- Calm blue lake instead of **deep urban flood river**
-- Random twig with no gorge or city below
-- Frozen lightning bolt wallpaper in **video** (OK in still sheet row 3 only)
+- **Log-bridge / people in panels** → used legacy 4×3 prompt; use JSON above
+- **Crushed black** → ignored hex floor `#1A3238`; regen with Nano Banana JSON
+- **Speckle noise** → clean ref + denoise before Seedance; see `NANO-BANANA-NOTES.md`
+- **Refs ignored for color** → attach mood still as Image 1 with color-only extract (JSON)
+
+---
+
+## Chunk links
+
+| Chunk | Storyboard panels |
+|-------|-------------------|
+| 03 | D–I |
+| 04 | I–J |
+| 05+ | K underwater — debris current, cars in flow |

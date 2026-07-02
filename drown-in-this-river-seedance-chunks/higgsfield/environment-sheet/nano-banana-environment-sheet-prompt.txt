@@ -1,25 +1,51 @@
-Optional: attach Image 1 (Nia sheet) only if you want tiny yellow-dress silhouettes for scale in story panels. Pure environment works without any ref.
+NANO BANANA — paste nano-banana-environment-sheet-prompt.json (preferred) OR this text.
+Output: ONE 16:9 landscape sheet → save as environment-sheet-16x9-env-only.png → Higgsfield Image 2.
 
-Generate as ONE square image — 4 rows × 3 columns, thin black gutters, small white label under each cell. Cinematic photoreal environment concept sheet, crushed teal-black storm palette, film production design quality.
+---
 
-ROW 1 — DIAGRAMS (readable, not muddy):
-Cell A MAP TOP-DOWN: Orthographic map — forest rim band, rocky notch at trail end, log-bridge line from cliff to giant tree, WIDE deep flooded city basin in valley (not skinny creek), arrow for river flow through streets.
-Cell B CROSS-SECTION: Side elevation — trees on cliff top, long sheer drop, trunk bridge at rim notch, FULL submerged building heights in deep flood below — water depth 30ft+ not shallow pool.
-Cell C STORY FLOW: Simple infographic strip — woods → clearing/cliff → city reveal → log-bridge → tree break → fall → surface → underwater → calm.
+ATTACH REFS (in order):
+  Image 1 = your best fall/mood still (teal water + amber city + readable midtones)
+  Image 2 = optional second mood still (water/sky tone only)
 
-ROW 2 — CHUNK 03 SETUP (photoreal 2.39:1 in each cell):
-Cell D BEAT 1 WOODS: Dark storm forest on cliff rim path, rain, no city visible.
-Cell E BEAT 2 CLEARING: Moonlit clearing at rim notch — trail ends, trees thin, city lights far below, wide deep basin implied.
-Cell F BEAT 3 CITY REVEAL: Over-shoulder from rim — destroyed flooded city in WIDE DEEP basin, huge river through streets, submerged building heights, lights, rapids, debris.
+CRITICAL — what refs are for:
+  Extract COLOR GRADE ONLY from Image 1 (#3A5660 sky, #2E5058 water, #C9A656 amber, etc.)
+  Do NOT copy: people, yellow dress, log bridge, composition, speckle grain, rain dots
 
-ROW 3 — BRIDGE & FALL:
-Cell G BEAT 4 LOG-BRIDGE: KEY WIDE — fallen trunk spans rocky rim notch cliff to giant root tree, storm rain, WIDE DEEP drowned city basin far below — not shallow creek slot.
-Cell H BEAT 5 TREE BREAK: Lightning flash on trunk/tree, wood splintering, brief flash not frozen bolt wallpaper.
-Cell I BEAT 6 FALL: Falling backward toward churning urban flood, splinters, high angle.
+NO Image 1 = Nia character sheet. Character goes in Seedance Image 1, NOT on this sheet.
 
-ROW 4 — RIVER (CHUNK 04+):
-Cell J ABOVE WATER: Surface rapids through wreckage, rain, debris, deep directional current.
-Cell K UNDERWATER: Murky teal, building silhouettes, bubbles, god rays — not blue pool.
-Cell L CALM: Storm easing, softer surface, still flooded town, less violent water.
+---
 
-No lyric text. No calm forest lake. No shallow slot canyon creek. Same location all panels. Save as environment-sheet-12panel.png for Seedance Image 2 (silent).
+Generate ONE 16:9 landscape environment-only layout sheet. Film production location reference. Thin black grid, white labels.
+
+NO PEOPLE anywhere in bottom plates — no silhouettes, no yellow dress, no hands. Yellow #EDC613 = legend swatch only.
+
+TEXTURE: Clean photoreal, zero film grain, smooth sky/water gradients, sparse soft rain streaks — NOT speckle soup.
+
+EXACT HEX (paint in legend + grade every bottom panel):
+  Teal Sky #3A5660 · Water #2E5058 · Shadow floor #1A3238 (darkest allowed)
+  Underwater #256068 · Amber City #C9A656 · Storm Green #354833 · Wet Bark #4A3828
+  Yellow swatch #EDC613 · Foam/Lightning #D8ECE8
+Never use #000000 or crushed black.
+
+LOCATION: Bluff rim notch above WIDE DEEP drowned city basin. Storm tree at cliff edge.
+NOT log-bridge. NOT megalog bridge spanning gorge.
+
+TOP ~45% — flat vector diagrams (zero grain):
+  MAP: rim forest, trail end notch, storm tree, deep flood basin, river arrow
+  CROSS-SECTION: cliff, undercut lip, 30ft+ drop, submerged buildings
+  STORY FLOW: woods → notch → city → give-way → suspended → release → surface → underwater debris current
+  LEGEND: painted hex swatches above
+
+BOTTOM ~55% — 2×4 empty 16:9 environment plates:
+  D RIM WOODS — green #354833, bark #4A3828, empty path
+  E NOTCH — sky #3A5660, amber glints #C9A656 below, empty cliff POV
+  F CITY REVEAL — water #2E5058, amber windows #C9A656, wide empty
+  G GIVE-WAY — crumbling rim, tilting tree at notch — NO bridge span, NO person
+  H SUSPENDED ANGLE — low angle tree + cliff, empty
+  I RELEASE ANGLE — cliff edge, flash #D8ECE8 on wet wood, NO falling figure
+  J ABOVE WATER — rapids #2E5058, foam #D8ECE8, NO swimmer
+  K UNDERWATER — teal #256068, strong current, cars/wreckage dragged in flow, god rays #D8ECE8 — NOT calm, NO figure
+
+AVOID: people, log bridge, crushed black, grain, rain speckle, square crop, trunk explosion.
+
+Match Image 1 colors only — invent new empty plates per spec.

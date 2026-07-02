@@ -6,6 +6,7 @@ Shared rules: `../02-woods-run-breath/PROMPT-FORMAT.md` · chunk 03 subtitle not
 
 - Each new pass → new file: `seedance-prompt-simple-v2.txt`, etc.
 - Keep old `-vN` files frozen; README points at current.
+- **Keep only the last 3 versions** per prompt line; prune when adding a fourth.
 - Separate files for distinct camera stories (e.g. `seedance-prompt-alt-A-epic-camera-v1.txt`).
 
 ## Chunk 04 extras

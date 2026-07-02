@@ -7,6 +7,10 @@ Two chunk 02 prompts:
 | **`seedance-prompt-simple.txt`** | **Try this first** — fewer beats, no lyric text, section headers |
 | `seedance-prompt.txt` | Detailed version (montage cuts, flashbacks, word times) |
 
+## Versioning (chunks 03+)
+
+Each new pass → new `-vN.txt` file. **Keep only the last 3 versions** per prompt line; delete older when you ship v4+. Convenience copies (`seedance-prompt-simple.txt`) mirror current.
+
 ## Section order (Seedance-friendly)
 
 Jimeng / Seedance storyboard docs use labeled blocks. Higgsfield accepts the same with `@[Image 1](image_1)` refs at the top:

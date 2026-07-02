@@ -1,0 +1,13 @@
+CHATGPT IMAGE — Layout B, **environment only**, 16:9. Copy below the line.
+
+---
+
+16:9 landscape sheet. **No people anywhere** in photoreal zones.
+
+**LEFT (~38%):** stacked diagrams — map, cross-section, story flow, color legend (**exact hex swatches:** Teal Sky `#3A5660`, Water `#2E5058`, Shadow `#1A3238`, Underwater `#256068`, Amber `#C9A656`, Green `#354833`, Bark `#4A3828`, Yellow `#EDC613`, Foam `#D8ECE8`).
+
+**RIGHT (~62%):** six large **empty** 16:9 environment plates — rim woods, notch cliff view, city reveal wide, give-way crumbling rim, storm tree low angle, above-water rapids.
+
+Clean photoreal cinematic texture, **zero grain**, smooth gradients, **no speckle noise**. Shadow floor `#1A3238` max — never crushed black. Match hex grade from mood boards. No figures, no silhouettes.
+
+Output: `environment-sheet-16x9-env-only-layout-B.png`

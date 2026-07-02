@@ -1,0 +1,24 @@
+# version: v4 (current — @Image 2 env + color lock; end impact ~14.8s)
+# supersedes: v3
+
+@[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Image 2](image_2) — **same environment and color lock as chunk 03** — deep drowned city flood, teal-black grade, saturated yellow dress, amber wreckage/city warmth; **colors stay the same entire clip**. @[Video 1](video_1) is the master audio; sync scream, breath, fall, and impact to it exactly.
+
+【Style】Cinematic music video, 2.39:1 anamorphic, heavy rain. Massive urban flood river below — dark churning teal-black, not calm blue. Match @[Image 2](image_2) water and grade panels.
+
+【Color】Locked start to finish — same palette as @[Image 2](image_2) and chunk 03: crushed teal-black, yellow dress, amber accents in debris/city. No desaturate drift, no turquoise.
+
+【Duration】15s container · ~14.95s track · end on water impact (~14.5–14.9s). No underwater aftermath.
+
+【Constraints】No subtitles, no lyrics burned in. No limb warping. Overlap OK.
+
+0.0–5.0s: Already falling from chunk 03. Scream, wind, rain. Slow motion. River below = violent city flood per Image 2, same colors.
+
+5.0–11.0s: Music forward — slow-mo fall. Yellow dress against unchanged teal-black churn; ruined city, debris, amber glints in wreckage.
+
+11.0–13.5s: Real-time rush — flood surface fills frame, same grade.
+
+13.5–14.9s: Impact on final accent — colossal splash in dark churning flood. End on boom. Same palette through impact.
+
+【Audio】Continuous sync to @[Video 1](video_1).
+
+【References】@Image 1 character. @Image 2 environment + color. See ../environment-sheet/COLOR.md.

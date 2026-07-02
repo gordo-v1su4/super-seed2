@@ -1,0 +1,32 @@
+# version: v13 (current — abstract MV + Bay camera + @Image 2 environment)
+# supersedes: v12
+
+@[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Image 2](image_2) — **environment lock** — match bluff rim, notch, storm tree, deep drowned city basin, teal-black + yellow + amber palette from the layout sheet. @[Video 1](video_1) is the master audio; sync all lip-sync and timing to it exactly.
+
+【Place】Same location as @[Image 2](image_2). Symbolic bluff rim over wide deep drowned city. Storm tree at notch — dream cliff, not megalog bridge.
+
+【Style】Abstract music video, 2.39:1. Match @[Image 2](image_2) mood and color. Michael Bay **energy** through **one spiraling drift** — slow orbit/push through give-way, hang, release. Dreamlike slow motion OK.
+
+【Duration】~13.9s · end last syllable ~13.8s. Fall continues chunk 04.
+
+【Constraints】No subtitles, no lyric words, no detonation, no launch up. Lightning one brief flash.
+
+0–4s: Rim path; lip-sync opening vocal. Notch, leaning tree, lights below per Image 2.
+
+4–5s: Instrumental — edge, hand on bark.
+
+5–8s: Second phrase at rim — medium, basin hidden in mood.
+
+8–9s: Riff peak — yellow against storm.
+
+9–10s: Stillness. Rain.
+
+10–12s: Third phrase — surreal rim slide, tree tilts, she grabs trunk.
+
+11.5–12.5s: Suspended hang — slow **orbit or push** reveals flooded city below (Bay camera).
+
+12–14s: Final phrase lip-sync. Flash on wet wood; release; slow-mo fall backward, dress billowing. One passage. End last syllable.
+
+【Audio】Continuous sync to @[Video 1](video_1).
+
+【References】@Image 1 character. @Image 2 environment sheet. See FINALE-BEATS.md.

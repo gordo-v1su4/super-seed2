@@ -1,0 +1,41 @@
+{
+  "goal": "single_cinematic_environment_plate",
+  "scene": "ONE empty live-action cinematic environment still — 16:9 — for Drown In This River. No people. Photoreal film frame, NOT concept art.",
+  "resolution": "4K",
+  "aspect_ratio": "16:9",
+  "mode": "thinking",
+  "reference_images": [
+    {
+      "image_id": 1,
+      "purpose": "cinematic look + color grade from operator photoreal mood still",
+      "extract": "live-action film quality, teal storm grade, amber city if visible, natural lighting",
+      "apply_to": "overall image",
+      "do_not_extract": "character, bridge, layout copy"
+    }
+  ],
+  "cinematic_photoreal": {
+    "look": "live-action photorealistic — ARRI Alexa 65, Cooke Anamorphic 2x, 35mm T2.8, 2.39:1",
+    "lighting": "naturalistic night exterior, Roger Deakins restraint, motivated city glow",
+    "forbidden": ["concept art", "3D render", "game environment", "illustration", "matte painting", "Unreal Engine", "macro texture soup", "added film grain"]
+  },
+  "color_grade": {
+    "teal_sky": "#3A5660",
+    "teal_water": "#2E5058",
+    "shadow_floor": "#1A3238",
+    "amber_city": "#C9A656",
+    "storm_green": "#354833",
+    "wet_bark": "#4A3828",
+    "underwater": "#256068",
+    "foam": "#D8ECE8"
+  },
+  "plate_variants": {
+    "instructions": "Run once per plate. Save as plate-E-notch.png, plate-F-city.png, etc. Stitch into sheet or upload best 2–3 to Seedance Image 2.",
+    "E_NOTCH": "Epic wide empty vista from storm cliff edge — vast drowned city amber lights far below, teal sky, NO bridge, NO person. Blade Runner 2049 flood scale.",
+    "F_CITY_REVEAL": "High wide anamorphic flooded downtown — submerged towers, rapids, warm windows #C9A656. Empty set.",
+    "J_ABOVE_WATER": "Wide cinema river through urban wreckage — teal churn #2E5058, gentle foam #D8ECE8. NOT macro splash.",
+    "K_UNDERWATER": "Wide anamorphic underwater empty — STRONG CURRENT. Cars, wreckage, timber dragged through flow. Submerged skyline #256068, god rays #D8ECE8. Turbulent debris — NOT calm, NOT still pool. No swimmer."
+  },
+  "constraints": {
+    "must_avoid": ["people", "silhouettes", "bridges", "concept art style", "game graphics", "calm still underwater", "peaceful submerged pool"]
+  }
+}

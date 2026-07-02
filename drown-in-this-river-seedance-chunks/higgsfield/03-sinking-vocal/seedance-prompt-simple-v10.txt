@@ -1,0 +1,32 @@
+# version: v10 (current — abstract MV + @Image 2 environment sheet)
+# supersedes: v9
+
+@[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Image 2](image_2) — use as the **environment lock**: same bluff rim, rocky notch, storm tree at edge, wide deep drowned city basin below; match palette (crushed teal-black, saturated yellow dress, warm amber city lights). @[Video 1](video_1) is the master audio; sync all lip-sync and timing to it exactly.
+
+【Place】Same geography as @[Image 2](image_2) — dreamlike bluff rim over wide deep drowned city, storm flood far below, storm tree at notch. Symbolic cliff-over-abyss, not a megalog bridge. Deep basin for chunk 04 fall.
+
+【Style】Abstract cinematic music video, 2.39:1 anamorphic, heavy rain. Match @[Image 2](image_2) color and location reads — not flat monochrome. Emotional and symbolic over documentary realism. One fluid camera drift through the finale.
+
+【Duration】~13.9s track · 15s container · end on last vocal syllable (~13.8s). Fall continues chunk 04.
+
+【Constraints】No on-screen text, subtitles, captions, lyric words. No trunk explosion. No upward launch. Lightning: one brief flash — gone. Feel over plot.
+
+0–4s: Rim walk in storm woods; lip-sync opening vocal in Video 1. Clearing toward notch — city lights like embers below per environment sheet.
+
+4–5s: Instrumental — reaches the edge, hand on wet tree bark.
+
+5–8s: Lip-sync second phrase — at the rim, medium framing, abyss half-hidden.
+
+8–9s: Melismatic riff — body and rain peak, yellow dress vivid.
+
+9–10s: Stillness. Breath. Rain.
+
+10–12s: Lip-sync third phrase — abstract give-way: rim earth slides like a slow dream, tree tilts; she catches the trunk.
+
+11.5–12.5s: Suspended beat — clinging in slow motion, tree the only tether; drowned city below opens like memory.
+
+12–14s: Final phrase lip-sync. Brief lightning flash — release — slow backward fall toward deep flood. One surreal passage. End on last syllable.
+
+【Audio】Continuous sync to @[Video 1](video_1).
+
+【References】@Image 1 character. @Image 2 environment layout sheet (`environment-sheet-16x9.png`). See FINALE-BEATS.md.

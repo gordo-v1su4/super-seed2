@@ -1,40 +1,194 @@
-CHATGPT IMAGE — copy everything below the line into ChatGPT (GPT-4o / image generation). Square output preferred. No character reference required.
+CHATGPT IMAGE — copy everything below the line. **16:9 landscape output required.**
 
-Optional: if ChatGPT struggles with 12 panels, use chatgpt-environment-one-sheet-prompt-compact.txt instead (6-panel version).
+
+
+Regen if: any person in photoreal panels, square crop, megalog bridge, **crushed near-black panels**, **speckle/grain noise soup**, flat monochrome.
+
+
+
+Optional layout B: `chatgpt-environment-one-sheet-layout-B.txt`
+
+
 
 ---
 
-Create ONE single environment layout sheet for a cinematic music video — a professional film production design reference board. Square aspect ratio. Clean thin black grid lines separating every panel. Small sans-serif white labels under each cell (readable, not decorative script).
 
-STYLE SPLIT — important:
-• TOP ROW = graphic / diagram panels — flat orthographic and infographic style, clean vector-like lines, muted teal-navy palette, white line art, minimal text labels, NO photorealism in row 1.
-• ROWS 2–4 = photoreal cinematic shot backgrounds — night storm, heavy rain, crushed teal-black color grade, ARRI anamorphic 2.39:1 composition inside each cell. Same ONE location in every photoreal panel.
 
-THE LOCATION (must stay consistent):
-Storm forest on a bluff rim above a WIDE DEEP flood basin — a drowned destroyed city in a deep main channel (30+ feet deep, submerged full building heights, dark churning water). At a rocky NOTCH the rim trail ends. A storm-felled mega-tree trunk spans from the cliff lip to a giant root tree on a rock spur — a log bridge over the deepest part of the channel. NOT a shallow creek in a narrow slot canyon. NOT a calm blue lake.
+Create ONE **16:9 landscape** **environment-only** layout sheet — no characters, no people, no silhouettes, no hands, no dress in frame. Film production **location** reference for a music video. Thin black grid, white sans-serif labels.
 
-GRID — 4 rows × 3 columns:
 
-ROW 1 — DIAGRAMS (graphic only, orthographic / infographic):
-• Panel A — MAP TOP-DOWN: Orthographic top-down layout map. Forest rim band on upper cliff. Rocky notch marked TRAIL END. Dashed line showing fallen trunk bridging notch from CLIFF to GIANT ROOT TREE. Wide oval zone below labeled DEEP FLOOD BASIN / DROWNED CITY. Arrow showing river flow through ruined streets. Clean game-level-design / architectural diagram look.
-• Panel B — CROSS-SECTION: Side elevation diagram. Trees on cliff top. Long sheer vertical drop (~80–120 ft). Trunk bridge at rim notch. Below: wide basin with FULL submerged building silhouettes under water line — depth clearly deep, not a puddle.
-• Panel C — STORY FLOW: Horizontal infographic strip with simple icons: woods → rim notch → city reveal → log-bridge → tree break → fall → surface rapids → underwater → calm. Teal icons on dark background.
 
-ROW 2 — SHOT BACKGROUNDS (photoreal):
-• Panel D — RIM WOODS: Dark storm forest path on bluff rim, rain, oppressive trees, no city visible yet.
-• Panel E — NOTCH CLEARING: Moonlit clearing where trail ends at rocky notch, trees thin, distant city lights glinting far below in deep basin.
-• Panel F — CITY REVEAL: Over-shoulder from rim — wide deep drowned city, huge river through destroyed streets, submerged rooftops and facades, debris, rapids, scattered window lights.
+**ASPECT RATIO:** Full sheet **16:9**. Each storyboard cell = **16:9 empty environment plate** (unpopulated set).
 
-ROW 3 — LOG & FALL (photoreal):
-• Panel G — LOG-BRIDGE HERO WIDE: KEY PANEL — massive fallen trunk spans rocky rim notch from cliff to giant root tree, storm rain, wide deep drowned city basin visible far below. Optional tiny yellow-dress silhouette on trunk for scale only — no face detail.
-• Panel H — TREE BREAK: Lightning flash on trunk, wood splintering, rain — brief flash moment, not a frozen lightning bolt wallpaper.
-• Panel I — FALL: High angle — figure falling backward toward deep churning urban flood below, splinters, dark teal water.
 
-ROW 4 — RIVER (photoreal):
-• Panel J — ABOVE WATER: Surface rapids through urban wreckage, whitecaps, debris trains, deep directional current, storm rain.
-• Panel K — UNDERWATER: Murky crushed teal, sinking past building silhouettes and wreckage, bubbles, god rays from surface — NOT a pretty blue swimming pool.
-• Panel L — CALM: Storm easing, softer rain, flood still high through ruined town but less violent surface, reflective dark water.
 
-STRICT AVOID: lyric text, subtitles, calm turquoise pond, shallow slot canyon with creek at bottom, two unrelated locations, satellite photo style for the map row, photorealism bleeding into diagram row, muddy unreadable labels.
+**NO PEOPLE RULE:** Bottom half = **background plates only** — the same angles and places a director would shoot **before** the actor walks in. Yellow appears only as a **color swatch in the legend**, not on a figure.
 
-Output: one complete labeled environment sheet suitable as a silent mood reference for AI video generation.
+
+
+---
+
+
+
+## TEXTURE — fix grain / high-frequency noise
+
+
+
+**Clean photoreal cinematic** — like ARRI Alexa night exteriors, **NOT** gritty illustration.
+
+
+
+**Required:**
+
+• **Zero film grain.** No turbulent noise in shadows or water.
+
+• **Smooth large tonal areas** — sky, water, fog read as soft gradients, not speckled static.
+
+• Rain = **soft directional streaks**, sparse and readable — **NOT** millions of white dots.
+
+• Building silhouettes = **clean edges**, not fuzzy hash.
+
+• Top diagram band = **flat vector/infographic** — no photoreal grain at all.
+
+
+
+**Forbidden:** crushed black mush, high-frequency speckle, painterly turbulence, “film grain,” “gritty,” noisy shadow soup.
+
+
+
+---
+
+
+
+## COLOR — EXACT HEX (sampled from approved mood-board frames)
+
+
+
+**Paint these exact hex values in the LEGEND swatches.** Use the same hex values as the dominant grade in every bottom panel. **Do not invent darker variants.**
+
+
+
+| Swatch label | Hex | Use |
+
+|--------------|-----|-----|
+
+| **Teal Storm Sky** | `#3A5660` | Storm clouds, mid sky — must stay readable |
+
+| **Teal Storm Water** | `#2E5058` | Flood surface, rapids, churn — primary water tone |
+
+| **Teal Shadow Floor** | `#1A3238` | **Darkest allowed shadow** — never go darker, never pure black |
+
+| **Teal Underwater** | `#256068` | Submerged panels, murky depth |
+
+| **Amber City** | `#C9A656` | Distant window lights / warm city glints |
+
+| **Storm Green** | `#354833` | Wet forest, moss, rim woods |
+
+| **Wet Bark** | `#4A3828` | Tree trunk, rock, cliff earth |
+
+| **Yellow Accent** | `#EDC613` | Legend swatch only — dress color for @Image 1 (no figure) |
+
+| **Foam / Lightning** | `#D8ECE8` | Wave crests, lightning flash, god-ray highlights |
+
+
+
+**Luminance rule:** Even “dark storm” panels must show **visible teal midtones** (`#2E5058`–`#3A5660`). Shadows floor at `#1A3238` — **NOT** `#040D12`, **NOT** `#000000`, **NOT** muddy near-black.
+
+
+
+**Wrong (do not output):** monochrome blue-gray, calm turquoise pool, all panels crushed to black with amber invisible.
+
+
+
+---
+
+
+
+## STYLE SPLIT
+
+
+
+• **TOP ~45%** = graphic diagrams only — clean flat vector/infographic, line art in `#3A5660` / white labels, **zero noise**
+
+• **BOTTOM ~55%** = photoreal **empty** environment plates — heavy rain OK, same location throughout, **same hex grade every cell**
+
+
+
+---
+
+
+
+## LOCATION
+
+
+
+Bluff rim above wide **deep drowned city basin** (30ft+). Rocky notch, trail end. Storm tree at cliff edge. NOT cliff-to-cliff megalog bridge.
+
+
+
+---
+
+
+
+## TOP HALF — DIAGRAMS
+
+
+
+• **MAP TOP-DOWN** (~40% width): Rim forest, TRAIL END notch, storm tree, DEEP FLOOD BASIN / DROWNED CITY, river arrow
+
+• **CROSS-SECTION** (~30%): Cliff, flood undercut at lip, drop, submerged building heights
+
+• **STORY FLOW** (~30%): Icon strip — woods → notch → city → give-way → suspended → release → surface → **underwater debris current**
+
+• **LEGEND** (required — **paint exact hex swatches above**, readable labels beside each):
+
+  Teal Storm Sky `#3A5660` · Teal Storm Water `#2E5058` · Teal Shadow `#1A3238` · Teal Underwater `#256068` · Amber City `#C9A656` · Storm Green `#354833` · Wet Bark `#4A3828` · Yellow Accent `#EDC613` · Foam/Lightning `#D8ECE8`
+
+
+
+---
+
+
+
+## BOTTOM HALF — EMPTY ENVIRONMENT PLATES (2×4)
+
+
+
+**No human in any cell.** Camera angles only. **Dominant hex per panel:**
+
+
+
+**Row 1:**
+
+• **D — RIM WOODS:** `#354833` forest + `#4A3828` bark, rain streaks — shadow floor `#1A3238` max
+
+• **E — NOTCH:** `#3A5660` sky, `#C9A656` amber city glints far below — empty cliff POV
+
+• **F — CITY REVEAL:** `#2E5058` flood + `#C9A656` warm windows in drowned city — wide, readable
+
+• **G — GIVE-WAY:** `#4A3828` crumbling rim, `#354833` tilt tree — no person
+
+
+
+**Row 2:**
+
+• **H — SUSPENDED ANGLE:** low angle storm tree `#4A3828`, `#3A5660` sky, `#C9A656` city glow
+
+• **I — RELEASE ANGLE:** cliff edge `#4A3828`, `#D8ECE8` brief flash on wet wood — no figure
+
+• **J — ABOVE WATER:** `#2E5058` rapids, `#D8ECE8` foam crests, debris — no swimmer
+
+• **K — UNDERWATER:** `#256068` depth, **strong current** — cars and wreckage dragged through flow, building silhouettes, debris trains, `#D8ECE8` god rays from surface — **NOT calm**, NOT still pool — empty
+
+
+
+---
+
+
+
+AVOID: people, silhouettes, yellow dress on figure, square layout, megalog bridge, trunk explosion, lyric text, film grain, speckle noise, crushed black panels, illustration style.
+
+
+
+Output: `environment-sheet-16x9-env-only.png` → Higgsfield **Image 2**, then `@Image 2` in Seedance for geography + color lock.
+

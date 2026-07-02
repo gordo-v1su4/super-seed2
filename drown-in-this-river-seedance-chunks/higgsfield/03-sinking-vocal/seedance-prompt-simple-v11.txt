@@ -1,0 +1,34 @@
+# version: v11 (current — color lock + @Image 2 environment)
+# supersedes: v10
+
+@[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Image 2](image_2) — **environment and color lock**: same bluff rim, notch, storm tree, deep drowned city basin; **same palette as Image 2 for the entire clip** — crushed teal-black, saturated yellow dress, warm amber city lights, wet brown bark, storm-green forest. @[Video 1](video_1) is the master audio; sync all lip-sync and timing to it exactly.
+
+【Place】Same geography as @[Image 2](image_2) — dreamlike bluff rim over wide deep drowned city, storm tree at notch. Not a megalog bridge.
+
+【Style】Abstract cinematic music video, 2.39:1 anamorphic, heavy rain. One fluid camera drift through the finale.
+
+【Color】**Locked start to finish** — match @[Image 2](image_2) grade and accents throughout; no desaturate drift, no turquoise water, no flat monochrome blue-gray. Yellow dress stays saturated; city lights stay amber.
+
+【Duration】~13.9s track · 15s container · end on last vocal syllable (~13.8s). Fall continues chunk 04.
+
+【Constraints】No on-screen text, subtitles, captions, lyric words. No trunk explosion. No upward launch. Lightning: one brief flash — gone.
+
+0–4s: Rim walk; lip-sync opening vocal. Clearing toward notch — amber city embers below, teal-black storm grade unchanged.
+
+4–5s: Instrumental — edge, hand on wet brown bark.
+
+5–8s: Lip-sync second phrase — at rim, same color grade as opening.
+
+8–9s: Melismatic riff — yellow dress vivid against unchanged teal-black storm.
+
+9–10s: Stillness. Rain.
+
+10–12s: Lip-sync third phrase — abstract give-way, tree tilts, she catches trunk; **colors unchanged**.
+
+11.5–12.5s: Suspended beat — clinging; drowned city below, amber lights in same grade.
+
+12–14s: Final phrase lip-sync. Brief lightning flash — release — slow backward fall. Same palette through fall start. End on last syllable.
+
+【Audio】Continuous sync to @[Video 1](video_1).
+
+【References】@Image 1 character. @Image 2 environment + color (`environment-sheet-16x9.png`). See COLOR.md, FINALE-BEATS.md.

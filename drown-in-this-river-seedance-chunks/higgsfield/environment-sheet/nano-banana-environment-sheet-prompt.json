@@ -1,102 +1,147 @@
 {
-  "goal": "environment_sheet_multi_angle",
-  "scene": "4x3 environment layout sheet — orthographic map, cross-section, and story angles for bluff rim notch, log-bridge over WIDE DEEP flood basin, drowned city river (chunks 03-04). No character identity lock required.",
-  "resolution": "2K",
-  "aspect_ratio": "1:1",
+  "goal": "environment_sheet_16x9_cinematic_photoreal",
+  "scene": "ONE 16:9 layout sheet. TOP = flat vector diagrams only. BOTTOM = eight LIVE-ACTION cinematic environment frames (empty set, before cast walks in). Bluff rim notch, drowned city basin. For Seedance @Image 2.",
+  "resolution": "4K",
+  "aspect_ratio": "16:9",
   "mode": "thinking",
-  "reference_images": [],
-  "global_style": {
-    "look": "cinematic photorealistic environment concept sheet, film production design",
-    "camera": "mixed — diagram panels orthographic/isometric; story panels ARRI Alexa 65 anamorphic 2.39:1 inside cells",
-    "color_grade": {
-      "palette": ["crushed teal-black", "navy storm shadow", "muddy flood brown-teal", "warm window lights in drowned city", "optional tiny yellow dress silhouette only for scale"]
-    },
-    "weather": "night storm, heavy rain in story panels; diagrams clean readable labels"
-  },
-  "grid": {
-    "layout": "4 rows x 3 columns",
-    "gutter": "thin black lines with small white labels under each cell",
-    "panel_aspect_story_rows": "2.39:1",
-    "panel_aspect_diagram_row": "16:9 or square readable"
-  },
-  "panels": [
+  "reference_images": [
     {
-      "cell": "1 row1-col1",
-      "label": "MAP TOP-DOWN",
-      "description": "Orthographic top-down map diagram: dark forest band on upper cliff rim; rocky NOTCH where trail ends; fallen trunk line bridging notch from cliff to giant tree; WIDE deep flooded city basin in valley below (not skinny creek slot) with arrow showing river flow through streets; minimal readable labels MAP STYLE not satellite photo"
-    },
-    {
-      "cell": "2 row1-col2",
-      "label": "CROSS-SECTION",
-      "description": "Side elevation cross-section: cliff rim with trees on top, long sheer drop, log-bridge trunk at rocky notch spanning to far root tree, FULL submerged building heights and facades in deep floodwater at bottom — water depth 30 feet or more, wide basin not shallow pool"
-    },
-    {
-      "cell": "3 row1-col3",
-      "label": "STORY FLOW",
-      "description": "Simple horizontal storyboard strip diagram inside cell: icons or tiny panels — woods → clearing/cliff → city reveal → log-bridge → tree break → fall → above water → underwater → calm; clean infographic style matching teal palette"
-    },
-    {
-      "cell": "4 row2-col1",
-      "label": "BEAT 1 WOODS",
-      "description": "Photoreal cinematic: dark storm forest on cliff rim path, heavy rain, deep teal shadows, no city visible, oppressive trees, tiny optional yellow dress silhouette walking away from camera"
-    },
-    {
-      "cell": "5 row2-col2",
-      "label": "BEAT 2 CLEARING",
-      "description": "Photoreal: trees thin into moonlit clearing at gorge edge, she stops at cliff lip, rain, sense of height but city not fully visible yet, rim location same as panel 4"
-    },
-    {
-      "cell": "6 row2-col3",
-      "label": "BEAT 3 CITY REVEAL",
-      "description": "Photoreal over-shoulder from rim: destroyed flooded city in valley below, huge river through drowned streets, scattered lights in windows, directional rapids and debris, storm rain, she small in foreground silhouette"
-    },
-    {
-      "cell": "7 row3-col1",
-      "label": "BEAT 4 LOG-BRIDGE",
-      "description": "Photoreal wide hero geography: massive fallen trunk spans rocky rim NOTCH from cliff to giant standing root tree, storm rain, WIDE DEEP drowned city basin far below with submerged buildings — KEY PANEL — not shallow creek gorge"
-    },
-    {
-      "cell": "8 row3-col2",
-      "label": "BEAT 5 TREE BREAK",
-      "description": "Photoreal: lightning strike on rim tree or trunk section, wood splintering, trunk failing under foot point, brief flash only, rain motion, no frozen bolt held across whole frame"
-    },
-    {
-      "cell": "9 row3-col3",
-      "label": "BEAT 6 FALL",
-      "description": "Photoreal: woman in yellow dress falling backward toward churning flood river above destroyed city, splinters in air, high angle, dark teal churn not blue pool"
-    },
-    {
-      "cell": "10 row4-col1",
-      "label": "ABOVE WATER",
-      "description": "Photoreal wide: surface rapids through urban wreckage, whitecaps, debris trains, storm rain, performance space energy, directional current, deep readable water"
-    },
-    {
-      "cell": "11 row4-col2",
-      "label": "UNDERWATER",
-      "description": "Photoreal underwater: murky crushed teal, submerged building silhouettes, bubbles, light rays from surface, sinking dress fabric, not pretty turquoise swimming pool"
-    },
-    {
-      "cell": "12 row4-col3",
-      "label": "CALM",
-      "description": "Photoreal: storm easing, softer rain, flood river still high through ruined town but less violent surface, reflective dark water, hopeful dim light break in clouds"
+      "image_id": 1,
+      "purpose": "CINEMATIC LOOK + COLOR — from operator's best photoreal Higgsfield still",
+      "extract": "Live-action film still quality: natural lighting, anamorphic depth, atmospheric haze, teal storm grade (#3A5660 sky, #2E5058 water, #C9A656 amber city lights). Real wet surfaces, real scale.",
+      "apply_to": "photoreal rendering style of bottom panels D–K only",
+      "do_not_extract": "character, yellow dress, bridge, exact composition copy, illustration style"
     }
   ],
+  "blend_instructions": "Bottom panels must look like FRAMES FROM A SHOT FEATURE — not concept art, not a video game, not a design board render. Image 1 = cinematic look + grade only. One photograph per cell D–K.",
+  "cinematic_photoreal": {
+    "mandatory_look": "live-action photorealistic cinema — indistinguishable from ARRI Alexa 65 location scout stills",
+    "camera": "ARRI Alexa 65, Cooke Anamorphic/i 2x, 35mm and 50mm lenses, T2.8, 2.39:1 anamorphic framing inside each bottom cell",
+    "lighting": "naturalistic night exteriors — motivated city glow, soft storm ambient, one restrained lightning fill where noted; Roger Deakins / Denis Villeneuve scale and restraint",
+    "atmosphere": "real volumetric fog and rain haze — soft optical depth, NOT painted mist, NOT CG smoke cards",
+    "surfaces": "real wet bark, real water physics, real building materials — subsurface on wood, specular on water",
+    "depth_of_field": "cinematic shallow DOF on foreground elements; city remains readable in background bokeh",
+    "forbidden_render_styles": [
+      "concept art",
+      "matte painting illustration",
+      "3D render",
+      "Unreal Engine",
+      "game environment",
+      "Blender",
+      "digital painting",
+      "storyboard sketch",
+      "clay render",
+      "oversaturated HDR"
+    ]
+  },
+  "texture": {
+    "grain": "clean in-camera digital capture — no added film grain, no speckle noise",
+    "rain": "real optical rain in air — soft streaks, sparse, photographed not painted dots",
+    "water": "photographed turbulent river at cinema scale — wide shots, NOT macro foam abstract",
+    "macro_forbidden": "NO extreme close-up rock texture, NO splash macro, NO pore-level surface noise"
+  },
+  "color_grade": {
+    "locked_hex": {
+      "teal_storm_sky": "#3A5660",
+      "teal_storm_water": "#2E5058",
+      "teal_shadow_floor": "#1A3238",
+      "teal_underwater": "#256068",
+      "amber_city": "#C9A656",
+      "storm_green": "#354833",
+      "wet_bark": "#4A3828",
+      "yellow_accent_swatch_only": "#EDC613",
+      "foam_lightning": "#D8ECE8"
+    },
+    "luminance_rule": "40%+ midtone teal per panel. Never crush to black."
+  },
+  "layout_strict": {
+    "top_band": "flat 2D vector diagrams ONLY — simple line art, NOT photoreal",
+    "bottom_band": "8 photoreal cinematic frames ONLY — 2 rows × 4 columns D E F G / H I J K",
+    "forbidden": ["stacked duplicates", "extra unlabeled frames", "3D diagram renders in bottom row"]
+  },
+  "top_diagrams": [
+    {
+      "label": "MAP TOP-DOWN",
+      "description": "Flat vector map: rim forest, trail end notch, single storm tree at cliff edge, wide drowned city basin, river arrow. NOT a bridge."
+    },
+    {
+      "label": "CROSS-SECTION",
+      "description": "Flat vector side cut: cliff, undercut, 30ft+ drop, submerged buildings."
+    },
+    {
+      "label": "STORY FLOW",
+      "description": "Simple icon strip — environment beats only, no stick-figure people: woods → notch → city → give-way → suspended → release → surface → underwater debris current"
+    },
+    {
+      "label": "LEGEND",
+      "description": "Painted hex swatches: #3A5660 #2E5058 #1A3238 #256068 #C9A656 #354833 #4A3828 #EDC613 #D8ECE8"
+    }
+  ],
+  "bottom_plates": {
+    "panel_aspect": "2.39:1 anamorphic cinema inside each cell",
+    "no_people": true,
+    "panels": [
+      {
+        "cell": "D",
+        "label": "RIM WOODS",
+        "shot": "Wide Steadicam forest path — towering wet conifers, muddy trail, storm mist. Live-action Pacific Northwest night forest. Medium-wide NOT illustration."
+      },
+      {
+        "cell": "E",
+        "label": "NOTCH",
+        "shot": "Epic wide vista from cliff edge — vast drowned city glowing amber #C9A656 far below, teal sky #3A5660. Empty set. Blade Runner 2049 flood scale. NO bridge."
+      },
+      {
+        "cell": "F",
+        "label": "CITY REVEAL",
+        "shot": "High wide anamorphic over flooded downtown — submerged towers, rapids #2E5058, warm windows. Photographed practical scale."
+      },
+      {
+        "cell": "G",
+        "label": "GIVE-WAY",
+        "shot": "Medium-wide crumbling cliff lip, storm tree tilting — live-action disaster geology, wet bark #4A3828. NOT game asset."
+      },
+      {
+        "cell": "H",
+        "label": "SUSPENDED ANGLE",
+        "shot": "Low anamorphic hero angle — storm tree against city glow, dramatic sky. Cinema trailer frame."
+      },
+      {
+        "cell": "I",
+        "label": "RELEASE ANGLE",
+        "shot": "Medium-wide cliff edge and wet tree trunk — NOT macro rock close-up. Lightning flash #D8ECE8 on wood. Empty set."
+      },
+      {
+        "cell": "J",
+        "label": "ABOVE WATER",
+        "shot": "Wide cinema river through urban wreckage — whitecaps #D8ECE8, full environment scale. NOT macro splash."
+      },
+      {
+        "cell": "K",
+        "label": "UNDERWATER",
+        "shot": "Wide anamorphic underwater empty set — STRONG CURRENT, not calm. Cars and wreckage dragged through murky teal #256068. Submerged buildings, timber, rebar in flow. God rays #D8ECE8 from surface above. Turbulent debris train — NOT still pool, NOT peaceful blue. No swimmer."
+      }
+    ]
+  },
   "constraints": {
     "must_include": [
-      "12 labeled panels in 4x3 grid",
-      "same geographic location across all story panels",
-      "orthographic map and cross-section in row 1",
-      "log-bridge spanning gorge",
-      "flooded destroyed city river not calm forest lake"
+      "bottom row looks like live-action film frames",
+      "anamorphic 2.39:1 inside each bottom cell",
+      "eight empty cinematic location plates",
+      "hex legend"
     ],
     "must_avoid": [
-      "lyric subtitles or text quotes",
-      "character face close-ups dominating sheet",
-      "calm turquoise pond",
-      "flat forest with no gorge",
-      "narrow shallow slot canyon with creek at bottom",
-      "persistent lightning bolt wallpaper in every panel",
-      "mudslide instead of tree break in panel 8"
+      "concept art aesthetic",
+      "3D game environment look",
+      "any person or silhouette",
+      "any bridge spanning gorge",
+      "macro texture panels",
+      "illustration in bottom row",
+      "film grain speckle soup",
+      "calm still underwater",
+      "peaceful submerged pool"
     ]
-  }
+  },
+  "output_filename": "environment-sheet-16x9-env-only.png",
+  "note": "If sheet still looks like concept art, use nano-banana-environment-plate-single.json — one cinematic 16:9 still per file, stitch in Photoshop."
 }

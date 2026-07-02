@@ -5,19 +5,20 @@
 
 ## Story (this episode)
 
-Continue dark woods walk → moonlit clearing (ambiguous) → notices trunk bridge → walk out slowly → height hidden until orbit on final phrase → trunk snaps → **falls with breaking wood** (no upward launch) → chunk 04 continues drop. No visible lightning bolts.
+Rim walk → notch overlook (undercut lip) → **third phrase: rim slide, tree tips, she grabs** → **brief hang** → final phrase: **lightning flash, sheer, fall begins** → chunk 04 continues drop. One fluid finale move. See `FINALE-BEATS.md`.
 
 ## Vocal map
 
 | Time | Vocal (Video 1) | Visual |
 |------|-----------------|--------|
-| **0.00–4.36** | Opening phrase | Continue walk; clearing brightens; spot trunk bridge |
-| **4.36–5.16** | instrumental | Step onto trunk |
-| **5.16–8.44** | Second phrase (restrained) | Walk outward — low follow cam, no height reveal |
-| **8.44–9.32** | Second phrase riff | Animated peak — slump then burst, melismatic lip-sync |
-| **9.32–10.00** | instrumental | Pause on trunk |
-| **10.00–12.14** | Third phrase opens | Far out on trunk, restrained |
-| **12.14–13.82** | Final phrase | Orbit reveal height · trunk snaps · **downward fall with wood** · end on last syllable |
+| **0.00–4.36** | Opening phrase | Rim walk; undercut notch; compromised tree at edge |
+| **4.36–5.16** | instrumental | At overlook, hand on tree |
+| **5.16–8.44** | Second phrase | At rim edge — medium, basin hidden |
+| **8.44–9.32** | Second phrase riff | Melismatic peak |
+| **9.32–10.00** | instrumental | Pause; rain; optional ground tremor |
+| **10.00–12.14** | Third phrase | **Rim lip slides** — mud/rock slurry — tree tips — **grabs trunk** |
+| **~11.5–12.5** | (overlap third/final) | **Hang beat** — clinging, city reveal below |
+| **12.14–13.82** | Final phrase | Lightning flash → sheer → **fall backward** on last syllable |
 
 ## Final phrase word times (for editor only — do not paste into prompts)
 

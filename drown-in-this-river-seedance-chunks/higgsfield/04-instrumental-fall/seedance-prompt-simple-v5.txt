@@ -1,0 +1,24 @@
+# version: v5 (current — @Image 2 image only for env + colors on sheet)
+# supersedes: v4
+
+@[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Image 2](image_2) — **same environment sheet image as chunk 03**: match flood/water plates and **color legend swatches on the sheet**. Colors stay the same entire clip. @[Video 1](video_1) is the master audio; sync scream, breath, fall, and impact to it exactly.
+
+【Style】Cinematic music video, 2.39:1 anamorphic, heavy rain. Massive urban flood per @[Image 2](image_2) — dark teal-black churn, not calm blue.
+
+【Color】Locked start to finish — use **color swatches on @[Image 2](image_2)**. No desaturate drift, no turquoise.
+
+【Duration】15s container · ~14.95s track · end on water impact (~14.5–14.9s). No underwater aftermath.
+
+【Constraints】No subtitles, no lyrics burned in. No limb warping. Overlap OK.
+
+0.0–5.0s: Already falling from chunk 03. Scream, wind, rain. Slow motion. Violent city flood per Image 2 plates, same colors.
+
+5.0–11.0s: Music forward — slow-mo fall. Yellow dress, teal-black churn, amber glints in wreckage — Image 2 grade.
+
+11.0–13.5s: Real-time rush — flood surface fills frame, same grade.
+
+13.5–14.9s: Impact on final accent — colossal splash. End on boom. Same palette.
+
+【Audio】Continuous sync to @[Video 1](video_1).
+
+【References】@Image 1 character. @Image 2 environment sheet (locations + color legend on image).

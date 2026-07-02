@@ -4,7 +4,7 @@ Shared rules: `../02-woods-run-breath/PROMPT-FORMAT.md`
 
 ## Versioning
 
-Each new pass → new `-vN.txt` file. Do not overwrite old versions. README points at current.
+Each new pass → new `-vN.txt` file. Do not overwrite old versions. **Keep only the last 3 versions** per prompt line; prune older files when you add a fourth. README points at current.
 
 ## Chunk 03 extras
 
@@ -24,8 +24,7 @@ Gen showed on-screen text for a sung word when the prompt used the same word in 
 
 ## Prompts
 
-| Label | File | Use when |
-|------|----------|----------|
-| `seedance-prompt-simple-v3.txt` | Option 1 current | Try first |
-| `seedance-prompt-v3.txt` | Option 2 current | Same story, more detail |
-| `seedance-prompt-alt-A-michael-bay-v4.txt` | Alt A current | Fluid Bay finale, wide beats |
+| Label | File | On disk (last 3) |
+|------|----------|------------------|
+| Option 1 **(current)** | `seedance-prompt-simple-v11.txt` | v9–v11 |
+| Alt A **(current)** | `seedance-prompt-alt-A-michael-bay-v14.txt` | v12–v14 |

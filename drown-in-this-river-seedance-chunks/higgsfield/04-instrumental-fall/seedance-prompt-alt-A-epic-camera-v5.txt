@@ -1,0 +1,24 @@
+# version: v5 (current — @Image 2 + epic camera)
+# supersedes: v4
+
+@[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Image 2](image_2) — **same environment sheet image as chunk 03** — geography, water plates, **color legend on sheet**. Colors stay same entire clip. @[Video 1](video_1) is the master audio; sync scream, breath, fall, impact exactly.
+
+【Style】Cinematic MV, 2.39:1. Bay fall camera — spiral, low hero, high plunge reveal. Urban flood per @[Image 2](image_2) — never calm blue.
+
+【Color】Locked to @[Image 2](image_2) legend swatches — same as Simple chunk 04; only camera differs.
+
+【Duration】15s · end impact ~14.5–14.9s.
+
+【Constraints】No subtitles, no lyric words. Overlap OK.
+
+0.0–5.0s: Falling — scream, slow spiral, Image 2 grade.
+
+5.0–11.0s: High-angle reveal ruined city flood — yellow dress, teal-black churn, amber debris.
+
+11.0–13.5s: Spiral tightens, real-time surface rush, unchanged colors.
+
+13.5–14.9s: Impact — colossal splash. End on boom.
+
+【Audio】Continuous sync to @[Video 1](video_1).
+
+【References】@Image 1 character. @Image 2 environment sheet (locations + color legend on image).

@@ -1,3 +1,6 @@
+# version: v15 (current — @Image 2 image only + Bay camera)
+# supersedes: v14
+
 @[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Image 2](image_2) — **environment sheet image**: geography, plates, and **color legend on the sheet** — teal-black, amber, storm green, wet bark, yellow accent. Same palette entire clip. @[Video 1](video_1) is the master audio; sync all lip-sync and timing to it exactly.
 
 【Place】Same location as @[Image 2](image_2). Bluff rim, deep drowned city, storm tree at notch.

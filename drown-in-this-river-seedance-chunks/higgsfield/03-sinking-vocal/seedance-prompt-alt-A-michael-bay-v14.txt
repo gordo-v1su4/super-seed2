@@ -1,0 +1,34 @@
+# version: v14 (current — color lock + Bay camera + @Image 2)
+# supersedes: v13
+
+@[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Image 2](image_2) — **environment and color lock** — same geography and **same palette entire clip** as layout sheet: teal-black, saturated yellow, amber city lights, brown bark, storm green. @[Video 1](video_1) is the master audio; sync all lip-sync and timing to it exactly.
+
+【Place】Same location as @[Image 2](image_2). Bluff rim, deep drowned city, storm tree at notch.
+
+【Style】Abstract music video, 2.39:1. Michael Bay energy — one spiraling orbit/push through give-way, hang, release.
+
+【Color】**Locked start to finish** — match @[Image 2](image_2); no grade drift, no turquoise, no monochrome wash. Same colors as Simple option — only camera differs.
+
+【Duration】~13.9s · end last syllable ~13.8s. Fall continues chunk 04.
+
+【Constraints】No subtitles, no lyric words, no detonation, no launch up. Lightning one brief flash.
+
+0–4s: Rim path; lip-sync opening vocal. Same Image 2 grade.
+
+4–5s: Instrumental — edge, hand on bark.
+
+5–8s: Second phrase at rim.
+
+8–9s: Riff peak — yellow against teal-black.
+
+9–10s: Stillness. Rain.
+
+10–12s: Third phrase — surreal rim slide, grabs trunk.
+
+11.5–12.5s: Suspended hang — slow orbit/push reveals flooded city; amber lights, unchanged grade.
+
+12–14s: Final phrase. Flash; release; slow-mo fall backward. Colors stay same through fall start. End last syllable.
+
+【Audio】Continuous sync to @[Video 1](video_1).
+
+【References】@Image 1 character. @Image 2 environment + color. See COLOR.md, FINALE-BEATS.md.

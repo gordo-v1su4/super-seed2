@@ -4,31 +4,32 @@
 
 ## Versioning rule
 
-Each new iteration → new `-vN.txt` file. Old versions stay frozen. README always points at **current**.
+Each new iteration → new `-vN.txt` file. Old versions stay frozen. **Keep only the last 3 versions** per prompt line — delete older when adding v4+. README always points at **current**.
 
 ## Upload (all options)
 
 | Slot | File | @ in prompt? |
 |------|------|----------------|
 | Image 1 | Nia character sheet | Yes |
-| Image 2 | mood / env grid (optional) | No |
+| Image 2 | `environment-sheet-16x9.png` (layout sheet) | **Yes** — environment lock |
 | Video 1 | Chunk 03 MP4 | Yes |
 
 **Duration:** 15 s · **Timing:** `TIMING.md`
 
 ---
 
-## Prompt options (current = v3)
+## Prompt options (current)
 
-| Label | Current file | Notes |
-|-------|--------------|-------|
-| Option 1 | `seedance-prompt-simple-v5.txt` | Rim + log-bridge geography |
-| Option 2 | `seedance-prompt-v3.txt` | Older — update if needed |
-| Alt A Michael Bay | `seedance-prompt-alt-A-michael-bay-v8.txt` | Same place logic + Bay finale |
+| Label | Current file | On disk (last 3) |
+|-------|--------------|------------------|
+| Option 1 **Simple** | `seedance-prompt-simple-v11.txt` | v9, v10, v11 |
+| Alt A **Michael Bay** | `seedance-prompt-alt-A-michael-bay-v14.txt` | v12, v13, v14 |
 
-See `GEOGRAPHY.md` and `ALT-A-NOTES.md`.
+**Color:** locked to `@Image 2` — see `../environment-sheet/COLOR.md`. Simple and Alt A use **identical** colors; only camera differs.
 
-Convenience copies: `seedance-prompt-simple.txt` (= v5), `seedance-prompt-alt-A-michael-bay.txt` (= v8)
+Convenience copies: `seedance-prompt-simple.txt`, `seedance-prompt-alt-A-michael-bay.txt`
+
+**Finale:** abstract/symbolic MV — see `FINALE-BEATS.md` (literal disaster logic optional, not default).
 
 ---
 

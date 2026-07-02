@@ -1,0 +1,26 @@
+# version: v6 (current — pure slow-mo fall; tree break was chunk 03)
+# supersedes: v5
+
+@[Image 1](image_1) — match her likeness, yellow dress, and wet storm look consistently. @[Image 2](image_2) — same environment sheet image: flood/water plates and color legend swatches. Colors stay the same entire clip. @[Video 1](video_1) is the master audio; sync scream, breath, fall, and impact to it exactly.
+
+【Story】Tree already broke in the previous chunk — **do not show trunk snap or tree break again**. This entire clip is **her already falling** in slow motion: backward or horizontal, dress billowing, hair whipping, optional splinters already in the air from before. Drowned city or violent rapids far below per Image 2. One continuous fall episode ending in **colossal splash impact** — not underwater aftermath (next chunk).
+
+【Style】Cinematic music video, 2.39:1 anamorphic, heavy rain. Slow-motion fall energy — terror and surrender. Urban flood below — dark teal-black churn, not calm blue.
+
+【Color】Locked to @[Image 2](image_2) legend swatches start to finish.
+
+【Duration】15s container · ~14.95s track · end hard on water impact (~14.5–14.9s).
+
+【Constraints】No tree breaking in frame. No trunk detonation. No subtitles. No limb warping. Overlap OK.
+
+0.0–5.0s: **Already mid-air** — slow-motion fall from frame one. Scream fading to breath, wind, rain. Body backward or horizontal, yellow dress billowing. Flood city or rapids visible far below. Same Image 2 colors.
+
+5.0–11.0s: Music swells — **stay in slow-mo fall**. High-angle and god-shot passes: tiny figure against vast drowned city or churning rapids, debris in current, amber city glints. Optional brief lightning flash only — not frozen bolt wallpaper.
+
+11.0–13.5s: Fall accelerates toward real-time — flood surface rushes up, whitecaps and wreckage, rain streaks. Eyes may close.
+
+13.5–14.9s: **Impact** on final accent in Video 1 — she slams into the violent flood, enormous splash, foam, debris swirl, body half-submerged in churn. **End on the boom** — cut on splash.
+
+【Audio】Continuous sync to @[Video 1](video_1). SFX-forward opening; music swells ~5s; impact on final peak.
+
+【References】@Image 1 character. @Image 2 environment sheet (locations + color legend on image).
